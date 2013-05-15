@@ -4,24 +4,21 @@
 
 <xsl:output method="text" version="1.0" encoding="utf8" />
 <xsl:template match="/diary">
-	Title|Date|Text|Location|People|Artwork
-	<xsl:apply-templates match="entry"/>
-</xsl:template>
-
-<xsl:template select="entry">		
-	<!-- Print dates, diary text -->
-	<xsl:value-of select="date"/>|<xsl:value-of select="date"/>|<xsl:value-of select="text" />|<xsl:apply-templates match="text/place"/>
-</xsl:template>
-	
-	<!-- Print all places -->
-<xsl:template select="place">	
-	<xsl:variable name="placeID">					
-		<xsl:value-of select="@id" />
-	</xsl:variable>
-	<xsl:variable name="placeName">
-		<xsl:value-of select="document('../xml/locations.xml')/Document/Row[@id=$placeID]/name" />
-	</xsl:variable>
-	<xsl:value-of select="$placeName"/>,
+	Title|Date|Text|Locations
+	<xsl:for-each select="entry">
+		<!-- Print dates, diary text -->
+		<xsl:value-of select="date"/>|<xsl:value-of select="date"/>|<xsl:value-of select="text" />|
+		<xsl:for-each select="text/place">
+			<!-- Print all places -->
+			<xsl:variable name="placeID">					
+				<xsl:value-of select="@id" />
+			</xsl:variable>
+			<xsl:variable name="placeName">
+				<xsl:value-of select="document('../xml/locations.xml')/Document/Row[@id=$placeID]/name" />
+			</xsl:variable>
+			<xsl:value-of select="$placeName"/>,
+		</xsl:for-each>
+	</xsl:for-each>
 </xsl:template>
 
 </xsl:stylesheet>
