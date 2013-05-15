@@ -1,0 +1,4 @@
+Dürer Project
+============
+
+This project is developing a set of XSLT stylesheets to transform a marked-up text (in XML) to various formats, including KML and various CSV databases.
