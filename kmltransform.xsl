@@ -1,6 +1,15 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xpath="http://www.w3.org/2005/xpath-functions">
 <xsl:output method="xml" omit-xml-declaration="yes" version="1.0" encoding="utf-8" indent="yes" />
 
+<!-- Declare location.xml location -->
+<xsl:variable name="locationsDat" select="'locations.xml'" />
+	
+<!-- Declare people.xml location -->
+<xsl:variable name="peopleDat" select="'people.xml'" />
+
+<!-- Declare artworks.xml location -->
+<xsl:variable name="artDat" select="'artworks.xml'" />
+
 <!-- Top-level header -->
 <xsl:template match="/diary">
     <kml xmlns="http://www.opengis.net/kml/2.2"
@@ -122,7 +131,7 @@
     					<xsl:for-each select="entry/text/place">
     						<xsl:variable name="placeID"><xsl:value-of select="@id" /></xsl:variable>
 
-    						<xsl:variable name="coordinates"><xsl:value-of select="document('locations.xml')/Document/Row[@id=$placeID]/coordinates" /></xsl:variable>
+    						<xsl:variable name="coordinates"><xsl:value-of select="document($locationsDat)/Document/Row[@id=$placeID]/coordinates" /></xsl:variable>
     						<xsl:if test="string-length($coordinates) != 0">								
     							<xsl:value-of select="$coordinates" />&#160;
     						</xsl:if>
@@ -141,7 +150,7 @@
  					<xsl:for-each select="entry/text/place">
  						<xsl:variable name="placeID" select="@id" />
  						<xsl:variable name="placeDate" select="../../date" />
-						<xsl:variable name="coordinates" select="document('locations.xml')/Document/Row[@id=$placeID]/coordinates" />							
+						<xsl:variable name="coordinates" select="document($locationsDat)/Document/Row[@id=$placeID]/coordinates" />							
 							<xsl:if test="string-length($coordinates) != 0">								
  						<when><xsl:value-of select="$placeDate" /></when>
  						<gx:coord><xsl:value-of select="$coordinates" /></gx:coord>
@@ -197,7 +206,7 @@
 		<xsl:value-of select="@id" />
 	</xsl:variable>
 	<xsl:variable name="coordinates">
-		<xsl:value-of select="document('locations.xml')/Document/Row[@id=$placeID]/coordinates" />
+		<xsl:value-of select="document($locationsDat)/Document/Row[@id=$placeID]/coordinates" />
 	</xsl:variable>
 	<xsl:variable name="time"><xsl:value-of select="../../date"/></xsl:variable>
 
@@ -208,7 +217,7 @@
 		<Placemark>
 			<styleUrl>#city</styleUrl>
 			<name>
-				<xsl:value-of select="document('locations.xml')/Document/Row[@id=$placeID]/name" />
+				<xsl:value-of select="document($locationsDat)/Document/Row[@id=$placeID]/name" />
 			</name>
 
 			<TimeSpan>
@@ -219,8 +228,6 @@
 <!-- 			Inserts associated entry -->
 				
 				<p><b><xsl:value-of select="$time" />: </b>"<xsl:value-of select=".." />"</p>
-<!-- 				<p><xsl:value-of select="document('nodeLists/places/locations.xml')/Document/Row[@id=$placeID]/note" /></p>
- -->
 			</description>
 
 			<MultiGeometry>
@@ -253,7 +260,7 @@
 		<xsl:value-of select="document('artworks.xml')/Document/Row[@id=$artID]/note"/>
 	</xsl:variable>
 	<xsl:variable name="artCoordinates">
-		<xsl:value-of select="document('locations.xml')/Document/Row[@id=$placeID]/coordinates" />
+		<xsl:value-of select="document($locationsDat)/Document/Row[@id=$placeID]/coordinates" />
 	</xsl:variable>
 	<xsl:variable name="artImg" select="document('artworks.xml')/Document/Row[@id=$artID]/img" />
 
@@ -360,7 +367,7 @@
 	</xsl:variable>
 	
 	<xsl:variable name="personCoordinates">
-		<xsl:value-of select="document('locations.xml')/Document/Row[@id=$placeID]/coordinates" />
+		<xsl:value-of select="document($locationsDat)/Document/Row[@id=$placeID]/coordinates" />
 	</xsl:variable>
 	
 	<xsl:variable name="time"><xsl:value-of select="../../../date"/></xsl:variable>
