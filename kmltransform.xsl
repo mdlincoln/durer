@@ -140,26 +140,6 @@
     			</LineString>
     		</Placemark>
 
-
-<!-- 	Draws an animated string of Dürer's journey, extrapolated by date tags
-	
- 			<Placemark>
- 				<name>Dürer's Path</name>
- 				<gx:Track>
-					<altitudeMode>clampedToGround</altitudeMode>
- 					<xsl:for-each select="entry/text/place">
- 						<xsl:variable name="placeID" select="@id" />
- 						<xsl:variable name="placeDate" select="../../date" />
-						<xsl:variable name="coordinates" select="document($locationsDat)/Document/Row[@id=$placeID]/coordinates" />							
-							<xsl:if test="string-length($coordinates) != 0">								
- 						<when><xsl:value-of select="$placeDate" /></when>
- 						<gx:coord><xsl:value-of select="$coordinates" /></gx:coord>
- 						</xsl:if>
- 					</xsl:for-each>
-				</gx:Track>
-			</Placemark>
-
- -->
 				
 			<Folder>
 				<name>The Places</name>
@@ -179,25 +159,6 @@
         </Document>
     </kml>
 </xsl:template>
-
-<!-- Generate folder with entries -->
-<!-- <xsl:template match="entry">
-	<Folder>
-		<xsl:attribute name="id"><xsl:value-of select="date" /></xsl:attribute>
-		<name><xsl:value-of select="date" /></name>
-		<TimeSpan>
-			<begin><xsl:value-of select="date" /></begin>
-		</TimeSpan>
-
-		<xsl:apply-templates select="text" />
-	</Folder>
-</xsl:template> -->
-
-<!-- Print text balloon for each entry -->
-<!-- <xsl:template match="text">
-	<description><xsl:value-of select="." /></description>
- 	<xsl:apply-templates select="place" />
-</xsl:template> -->
 
 <!-- Generate pushpins for each city -->
 <xsl:template match="place">
