@@ -138,6 +138,10 @@
 						<width>3</width>
 					</LineStyle>
 				</Style>
+				<TimeSpan>
+					<begin>1520-07-12</begin>
+					<end>1520-08-06</end>
+				</TimeSpan>
     			<LineString>
     				<tessellate>1</tessellate>
     				<coordinates>
