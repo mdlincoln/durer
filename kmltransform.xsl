@@ -194,9 +194,9 @@
 				<xsl:value-of select="document($locationsDat)/Document/Row[@id=$placeID]/name" />
 			</name>
 
-			<TimeSpan>
-				<begin><xsl:value-of select="$time" /></begin>
-			</TimeSpan>
+			<TimeStamp>
+				<xsl:value-of select="$time" />
+			</TimeStamp>
 
 			<description>
 <!-- 			Inserts associated entry -->
@@ -277,9 +277,9 @@
 				<p><img><xsl:attribute name="src"><xsl:copy-of select="$artImg" /></xsl:attribute></img></p>
 			</description>
 
-			<TimeSpan>
-				<begin><xsl:value-of select="$time" /></begin>
-			</TimeSpan>
+			<TimeStamp>
+				<xsl:value-of select="$time" />
+			</TimeStamp>
 
 
 			<Point>
@@ -307,9 +307,9 @@
 				<p><b><xsl:value-of select="$time" />: </b>"<xsl:value-of select="../.."/>"</p>
 			</description>
 
-			<TimeSpan>
-				<begin><xsl:value-of select="$time" /></begin>
-			</TimeSpan>
+			<TimeStamp>
+				<xsl:value-of select="$time" />
+			</TimeStamp>
 
 			<styleUrl>#msn_square</styleUrl>		
 			<Point>
@@ -363,9 +363,9 @@
 			<p><b><xsl:value-of select="$time" />: </b>"<xsl:value-of select="../.."/>"</p>
 		</description>
 
-		<TimeSpan>
-				<begin><xsl:value-of select="$time" /></begin>
-		</TimeSpan>
+		<TimeStamp>
+				<xsl:value-of select="$time" />
+		</TimeStamp>
 
 		<Point>
 			<extrude>1</extrude>
