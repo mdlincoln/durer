@@ -15,17 +15,15 @@
     <kml xmlns="http://www.opengis.net/kml/2.2"
  xmlns:gx="http://www.google.com/kml/ext/2.2">
     	<Document>
-    		<name>Durer's Diary</name>
+    		<name>Albrecht Durer's Diary of his Trip to the Netherlands: 1520-1521</name>
     		<open>1</open>
 
     		<description>
 		 		<p>This map has been generated from the text of the first month of Albrecht Dürer's diary of his trip to the Netherlands in 1520-1521. By encoding the text as an XML document, marking up places, people, and artworks as elements in a hierarchical tree of diary entries, we were able to create a machine-readable "index" of the diary. Matthew Lincoln develped a computer script to read this text and translate it into a KML file readable by Google Earth.</p>
 
-	 			<hr>
-
+		 		<hr/>
 				<p>By <a href="http://mlincoln.wordpress.com">Matthew Lincoln, 2013</a></p>
-				<p>Ph.D student, Graduate Assistant in the Digital Humanitites</p>
-				<p> Department of Art History and Archaeology, University of Maryland, College Park.</p>
+				<p>Ph.D student, Graduate Assistant in the Digital Humanitites, Department of Art History and Archaeology, University of Maryland, College Park.</p>
 			 </description>
 
 			 <atom:author>
