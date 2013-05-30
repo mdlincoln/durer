@@ -23,11 +23,15 @@
 
 	 			<hr>
 
-				<p>By Matthew Lincoln, 2013</p>
+				<p>By <a href="http://mlincoln.wordpress.com">Matthew Lincoln, 2013</a></p>
 				<p>Ph.D student, Graduate Assistant in the Digital Humanitites</p>
 				<p> Department of Art History and Archaeology, University of Maryland, College Park.</p>
-				<p><a href="http://mlincoln.wordpress.com">Website</a></p>
 			 </description>
+
+			 <atom:author>
+			 	<atom:name>Matthew Lincoln, Michelle Smith Collaboratory for Visual Culture, Department of Art History <![CDATA[&]]> Archaeology, University of Maryland, College Park</atom:name>
+			 </atom:author>
+			 <atom:link href="http://michellesmithcollaboratory.umd.edu/" rel="related"></atom:link>
 
     		<!-- Artwork style -->
     		<StyleMap id="msn_square">
