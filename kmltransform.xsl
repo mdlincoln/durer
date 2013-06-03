@@ -2,13 +2,13 @@
 <xsl:output method="xml" omit-xml-declaration="yes" version="1.0" encoding="utf-8" indent="yes" />
 
 <!-- Declare location.xml location -->
-<xsl:variable name="locationsDat" select="'locations.xml'" />
+<xsl:variable name="locationsDB" select="'locations.xml'" />
 	
 <!-- Declare people.xml location -->
-<xsl:variable name="peopleDat" select="'people.xml'" />
+<xsl:variable name="peopleDB" select="'people.xml'" />
 
 <!-- Declare artworks.xml location -->
-<xsl:variable name="artDat" select="'artworks.xml'" />
+<xsl:variable name="artworksDB" select="'artworks.xml'" />
 
 <!-- Top-level header -->
 <xsl:template match="/diary">
@@ -26,11 +26,6 @@
 				<p>By <a href="http://mlincoln.wordpress.com">Matthew Lincoln, 2013</a></p>
 				<p>Ph.D student, Graduate Assistant in the Digital Humanitites, Department of Art History and Archaeology, University of Maryland, College Park.</p>
 			 </description>
-
-			 <atom:author>
-			 	<atom:name>Matthew Lincoln, Michelle Smith Collaboratory for Visual Culture, Department of Art History <![CDATA[&]]> Archaeology, University of Maryland, College Park</atom:name>
-			 </atom:author>
-			 <atom:link href="http://michellesmithcollaboratory.umd.edu/" rel="related"></atom:link>
 
     		<!-- Artwork style -->
     		<StyleMap id="msn_square">
@@ -149,7 +144,7 @@
     					<xsl:for-each select="entry/text/place">
     						<xsl:variable name="placeID"><xsl:value-of select="@id" /></xsl:variable>
 
-    						<xsl:variable name="coordinates"><xsl:value-of select="document($locationsDat)/Document/Row[@id=$placeID]/coordinates" /></xsl:variable>
+    						<xsl:variable name="coordinates"><xsl:value-of select="document($locationsDB)/Document/Row[@id=$placeID]/coordinates" /></xsl:variable>
     						<xsl:if test="string-length($coordinates) != 0">								
     							<xsl:value-of select="$coordinates" />&#160;
     						</xsl:if>
@@ -185,7 +180,7 @@
 		<xsl:value-of select="@id" />
 	</xsl:variable>
 	<xsl:variable name="coordinates">
-		<xsl:value-of select="document($locationsDat)/Document/Row[@id=$placeID]/coordinates" />
+		<xsl:value-of select="document($locationsDB)/Document/Row[@id=$placeID]/coordinates" />
 	</xsl:variable>
 	<xsl:variable name="time"><xsl:value-of select="../../date"/></xsl:variable>
 
@@ -196,7 +191,7 @@
 		<Placemark>
 			<styleUrl>#city</styleUrl>
 			<name>
-				<xsl:value-of select="document($locationsDat)/Document/Row[@id=$placeID]/name" />
+				<xsl:value-of select="document($locationsDB)/Document/Row[@id=$placeID]/name" />
 			</name>
 
 			<TimeStamp>
@@ -227,21 +222,21 @@
 		<xsl:value-of select="../@id"/>
 	</xsl:variable>
 	<xsl:variable name="artName">
-		<xsl:value-of select="document('artworks.xml')/Document/Row[@id=$artID]/name"/>
+		<xsl:value-of select="document($artworksDB)/Document/Row[@id=$artID]/name"/>
 	</xsl:variable>
 	<xsl:variable name="artDate">
-		<xsl:value-of select="document('artworks.xml')/Document/Row[@id=$artID]/date"/>
+		<xsl:value-of select="document($artworksDB)/Document/Row[@id=$artID]/date"/>
 	</xsl:variable>
 	<xsl:variable name="artMedium">
-		<xsl:value-of select="document('artworks.xml')/Document/Row[@id=$artID]/medium"/>
+		<xsl:value-of select="document($artworksDB)/Document/Row[@id=$artID]/medium"/>
 	</xsl:variable>
 	<xsl:variable name="artNote">
-		<xsl:value-of select="document('artworks.xml')/Document/Row[@id=$artID]/note"/>
+		<xsl:value-of select="document($artworksDB)/Document/Row[@id=$artID]/note"/>
 	</xsl:variable>
 	<xsl:variable name="artCoordinates">
-		<xsl:value-of select="document($locationsDat)/Document/Row[@id=$placeID]/coordinates" />
+		<xsl:value-of select="document($locationsDB)/Document/Row[@id=$placeID]/coordinates" />
 	</xsl:variable>
-	<xsl:variable name="artImg" select="document('artworks.xml')/Document/Row[@id=$artID]/img" />
+	<xsl:variable name="artImg" select="document($artworksDB)/Document/Row[@id=$artID]/img" />
 
 	<xsl:variable name="time"><xsl:value-of select="../../../date"/></xsl:variable>
 
@@ -333,20 +328,20 @@
 
 	<xsl:variable name="personID"><xsl:value-of select="@id"/></xsl:variable>
 
-	<xsl:variable name="personName"><xsl:value-of select="document('people.xml')/Document/Row[@id=$personID]/name" /></xsl:variable>
+	<xsl:variable name="personName"><xsl:value-of select="document($peopleDB)/Document/Row[@id=$personID]/name" /></xsl:variable>
 	
-	<xsl:variable name="personDescription"><xsl:value-of select="document('people.xml')/Document/Row[@id=$personID]/description" /></xsl:variable>
+	<xsl:variable name="personDescription"><xsl:value-of select="document($peopleDB)/Document/Row[@id=$personID]/description" /></xsl:variable>
 	
-	<xsl:variable name="birthDate"><xsl:value-of select="document('people.xml')/Document/Row[@id=$personID]/birthDate" /></xsl:variable>
+	<xsl:variable name="birthDate"><xsl:value-of select="document($peopleDB)/Document/Row[@id=$personID]/birthDate" /></xsl:variable>
 	
-	<xsl:variable name="deathDate"><xsl:value-of select="document('people.xml')/Document/Row[@id=$personID]/deathDate" /></xsl:variable>
+	<xsl:variable name="deathDate"><xsl:value-of select="document($peopleDB)/Document/Row[@id=$personID]/deathDate" /></xsl:variable>
 	
 	<xsl:variable name="placeID">
 		<xsl:value-of select="../@id"/>
 	</xsl:variable>
 	
 	<xsl:variable name="personCoordinates">
-		<xsl:value-of select="document($locationsDat)/Document/Row[@id=$placeID]/coordinates" />
+		<xsl:value-of select="document($locationsDB)/Document/Row[@id=$placeID]/coordinates" />
 	</xsl:variable>
 	
 	<xsl:variable name="time"><xsl:value-of select="../../../date"/></xsl:variable>
