@@ -1,13 +1,31 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xpath="http://www.w3.org/2005/xpath-functions">
 <xsl:output method="xml" omit-xml-declaration="yes" version="1.0" encoding="utf-8" indent="yes" />
 
+<!-- Declare location.xml location -->
+<xsl:variable name="locationsDB" select="'locations.xml'" />
+	
+<!-- Declare people.xml location -->
+<xsl:variable name="peopleDB" select="'people.xml'" />
+
+<!-- Declare artworks.xml location -->
+<xsl:variable name="artworksDB" select="'artworks.xml'" />
+
 <!-- Top-level header -->
 <xsl:template match="/diary">
     <kml xmlns="http://www.opengis.net/kml/2.2"
  xmlns:gx="http://www.google.com/kml/ext/2.2">
     	<Document>
-    		<name>Durer's Diary</name>
+    		<name>Albrecht Durer's Diary of his Trip to the Netherlands: 1520-1521</name>
     		<open>1</open>
+
+    		<description>
+    			<p>The German master artist Albrecht Dürer left art historians an unparalleled archival legacy with his detailed diary of his trip to the Netherlands in 1520-1521. This text is invaluable for documenting Dürer's encounter with the art and artists of the Netherlands, as well as his opinions on the growing religious tensions in northern Europe. Beyond this, however, Dürer’s meticulous journal offers a glimpse of a sixteenth-century international traveler's day-to-day experience, telling us of his quotidian purchases, sales and gifts of small sketches, and personal interactions large and small as he traveled between the great cities of the north.</p>
+    			<p>This map has been generated from entries for the first month of Dürer's journey recorded in Georges Marlier and Marnix Gijsen’s text Albrecht Dürer: Diary of His Journey to the Netherlands, 1520-1521. By encoding the text as an XML document where places, people, and artworks are marked as elements in a hierarchical tree of diary entries, Ph. D student Matthew Lincoln was able to create a machine-readable "index" of the diary. A computerized script (written in XSLT) was written to translate this document into a KML file to be displayed in Google Earth.</p>
+    			<p>All the placemarks on this map - places, people, and artworks - are timestamped, so that by adjusting the time slider in the Google Earth interface one may visualize Dürer's journey through space and time in a way not easily grasped by reading the diary text alone. By clicking on individual placemarks, you may read the specific diary entry from which that marker was derived, connecting you directly back to the primary source. Because this map is computer-generated, future additions and revisions to the digitized diary text can be automatically incorporated.</p>
+		 		<hr/>
+				<p>By <a href="http://mlincoln.wordpress.com">Matthew Lincoln, 2013</a></p>
+				<p>Ph.D student, Graduate Assistant in the Digital Humanitites, Department of Art History and Archaeology, University of Maryland, College Park.</p>
+			 </description>
 
     		<!-- Artwork style -->
     		<StyleMap id="msn_square">
@@ -116,13 +134,17 @@
 						<width>3</width>
 					</LineStyle>
 				</Style>
+				<TimeSpan>
+					<begin>1520-07-12</begin>
+					<end>1520-08-06</end>
+				</TimeSpan>
     			<LineString>
     				<tessellate>1</tessellate>
     				<coordinates>
     					<xsl:for-each select="entry/text/place">
     						<xsl:variable name="placeID"><xsl:value-of select="@id" /></xsl:variable>
 
-    						<xsl:variable name="coordinates"><xsl:value-of select="document('locations.xml')/Document/Row[@id=$placeID]/coordinates" /></xsl:variable>
+    						<xsl:variable name="coordinates"><xsl:value-of select="document($locationsDB)/Document/Row[@id=$placeID]/coordinates" /></xsl:variable>
     						<xsl:if test="string-length($coordinates) != 0">								
     							<xsl:value-of select="$coordinates" />&#160;
     						</xsl:if>
@@ -131,26 +153,6 @@
     			</LineString>
     		</Placemark>
 
-
-<!-- 	Draws an animated string of Dürer's journey, extrapolated by date tags
-	
- 			<Placemark>
- 				<name>Dürer's Path</name>
- 				<gx:Track>
-					<altitudeMode>clampedToGround</altitudeMode>
- 					<xsl:for-each select="entry/text/place">
- 						<xsl:variable name="placeID" select="@id" />
- 						<xsl:variable name="placeDate" select="../../date" />
-						<xsl:variable name="coordinates" select="document('locations.xml')/Document/Row[@id=$placeID]/coordinates" />							
-							<xsl:if test="string-length($coordinates) != 0">								
- 						<when><xsl:value-of select="$placeDate" /></when>
- 						<gx:coord><xsl:value-of select="$coordinates" /></gx:coord>
- 						</xsl:if>
- 					</xsl:for-each>
-				</gx:Track>
-			</Placemark>
-
- -->
 				
 			<Folder>
 				<name>The Places</name>
@@ -171,25 +173,6 @@
     </kml>
 </xsl:template>
 
-<!-- Generate folder with entries -->
-<!-- <xsl:template match="entry">
-	<Folder>
-		<xsl:attribute name="id"><xsl:value-of select="date" /></xsl:attribute>
-		<name><xsl:value-of select="date" /></name>
-		<TimeSpan>
-			<begin><xsl:value-of select="date" /></begin>
-		</TimeSpan>
-
-		<xsl:apply-templates select="text" />
-	</Folder>
-</xsl:template> -->
-
-<!-- Print text balloon for each entry -->
-<!-- <xsl:template match="text">
-	<description><xsl:value-of select="." /></description>
- 	<xsl:apply-templates select="place" />
-</xsl:template> -->
-
 <!-- Generate pushpins for each city -->
 <xsl:template match="place">
 	<!-- Create a variable for the place ID -->
@@ -197,7 +180,7 @@
 		<xsl:value-of select="@id" />
 	</xsl:variable>
 	<xsl:variable name="coordinates">
-		<xsl:value-of select="document('locations.xml')/Document/Row[@id=$placeID]/coordinates" />
+		<xsl:value-of select="document($locationsDB)/Document/Row[@id=$placeID]/coordinates" />
 	</xsl:variable>
 	<xsl:variable name="time"><xsl:value-of select="../../date"/></xsl:variable>
 
@@ -208,19 +191,17 @@
 		<Placemark>
 			<styleUrl>#city</styleUrl>
 			<name>
-				<xsl:value-of select="document('locations.xml')/Document/Row[@id=$placeID]/name" />
+				<xsl:value-of select="document($locationsDB)/Document/Row[@id=$placeID]/name" />
 			</name>
 
-			<TimeSpan>
-				<begin><xsl:value-of select="$time" /></begin>
-			</TimeSpan>
+			<TimeStamp>
+				<xsl:value-of select="$time" />
+			</TimeStamp>
 
 			<description>
 <!-- 			Inserts associated entry -->
 				
 				<p><b><xsl:value-of select="$time" />: </b>"<xsl:value-of select=".." />"</p>
-<!-- 				<p><xsl:value-of select="document('nodeLists/places/locations.xml')/Document/Row[@id=$placeID]/note" /></p>
- -->
 			</description>
 
 			<MultiGeometry>
@@ -241,21 +222,21 @@
 		<xsl:value-of select="../@id"/>
 	</xsl:variable>
 	<xsl:variable name="artName">
-		<xsl:value-of select="document('artworks.xml')/Document/Row[@id=$artID]/name"/>
+		<xsl:value-of select="document($artworksDB)/Document/Row[@id=$artID]/name"/>
 	</xsl:variable>
 	<xsl:variable name="artDate">
-		<xsl:value-of select="document('artworks.xml')/Document/Row[@id=$artID]/date"/>
+		<xsl:value-of select="document($artworksDB)/Document/Row[@id=$artID]/date"/>
 	</xsl:variable>
 	<xsl:variable name="artMedium">
-		<xsl:value-of select="document('artworks.xml')/Document/Row[@id=$artID]/medium"/>
+		<xsl:value-of select="document($artworksDB)/Document/Row[@id=$artID]/medium"/>
 	</xsl:variable>
 	<xsl:variable name="artNote">
-		<xsl:value-of select="document('artworks.xml')/Document/Row[@id=$artID]/note"/>
+		<xsl:value-of select="document($artworksDB)/Document/Row[@id=$artID]/note"/>
 	</xsl:variable>
 	<xsl:variable name="artCoordinates">
-		<xsl:value-of select="document('locations.xml')/Document/Row[@id=$placeID]/coordinates" />
+		<xsl:value-of select="document($locationsDB)/Document/Row[@id=$placeID]/coordinates" />
 	</xsl:variable>
-	<xsl:variable name="artImg" select="document('artworks.xml')/Document/Row[@id=$artID]/img" />
+	<xsl:variable name="artImg" select="document($artworksDB)/Document/Row[@id=$artID]/img" />
 
 	<xsl:variable name="time"><xsl:value-of select="../../../date"/></xsl:variable>
 
@@ -296,9 +277,9 @@
 				<p><img><xsl:attribute name="src"><xsl:copy-of select="$artImg" /></xsl:attribute></img></p>
 			</description>
 
-			<TimeSpan>
-				<begin><xsl:value-of select="$time" /></begin>
-			</TimeSpan>
+			<TimeStamp>
+				<xsl:value-of select="$time" />
+			</TimeStamp>
 
 
 			<Point>
@@ -326,9 +307,9 @@
 				<p><b><xsl:value-of select="$time" />: </b>"<xsl:value-of select="../.."/>"</p>
 			</description>
 
-			<TimeSpan>
-				<begin><xsl:value-of select="$time" /></begin>
-			</TimeSpan>
+			<TimeStamp>
+				<xsl:value-of select="$time" />
+			</TimeStamp>
 
 			<styleUrl>#msn_square</styleUrl>		
 			<Point>
@@ -347,20 +328,20 @@
 
 	<xsl:variable name="personID"><xsl:value-of select="@id"/></xsl:variable>
 
-	<xsl:variable name="personName"><xsl:value-of select="document('people.xml')/Document/Row[@id=$personID]/name" /></xsl:variable>
+	<xsl:variable name="personName"><xsl:value-of select="document($peopleDB)/Document/Row[@id=$personID]/name" /></xsl:variable>
 	
-	<xsl:variable name="personDescription"><xsl:value-of select="document('people.xml')/Document/Row[@id=$personID]/description" /></xsl:variable>
+	<xsl:variable name="personDescription"><xsl:value-of select="document($peopleDB)/Document/Row[@id=$personID]/description" /></xsl:variable>
 	
-	<xsl:variable name="birthDate"><xsl:value-of select="document('people.xml')/Document/Row[@id=$personID]/birthDate" /></xsl:variable>
+	<xsl:variable name="birthDate"><xsl:value-of select="document($peopleDB)/Document/Row[@id=$personID]/birthDate" /></xsl:variable>
 	
-	<xsl:variable name="deathDate"><xsl:value-of select="document('people.xml')/Document/Row[@id=$personID]/deathDate" /></xsl:variable>
+	<xsl:variable name="deathDate"><xsl:value-of select="document($peopleDB)/Document/Row[@id=$personID]/deathDate" /></xsl:variable>
 	
 	<xsl:variable name="placeID">
 		<xsl:value-of select="../@id"/>
 	</xsl:variable>
 	
 	<xsl:variable name="personCoordinates">
-		<xsl:value-of select="document('locations.xml')/Document/Row[@id=$placeID]/coordinates" />
+		<xsl:value-of select="document($locationsDB)/Document/Row[@id=$placeID]/coordinates" />
 	</xsl:variable>
 	
 	<xsl:variable name="time"><xsl:value-of select="../../../date"/></xsl:variable>
@@ -382,9 +363,9 @@
 			<p><b><xsl:value-of select="$time" />: </b>"<xsl:value-of select="../.."/>"</p>
 		</description>
 
-		<TimeSpan>
-				<begin><xsl:value-of select="$time" /></begin>
-		</TimeSpan>
+		<TimeStamp>
+				<xsl:value-of select="$time" />
+		</TimeStamp>
 
 		<Point>
 			<extrude>1</extrude>
