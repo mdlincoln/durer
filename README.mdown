@@ -1,6 +1,6 @@
 Dürer Project
 ============
 
-This project is developing a set of XSLT stylesheets to transform a marked-up text (in XML) to various formats, including KML and various CSV databases.
+This project contains a set of XSLT stylesheets to transform a marked-up text (in XML) to various formats, including KML and various CSV databases.
 
 [Matthew D. Lincoln](http://mlincoln.wordpress.com) | Ph.D Student, University of Maryland, College Park
