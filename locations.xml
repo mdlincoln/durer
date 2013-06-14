@@ -1,0 +1,311 @@
+<Document>
+<!--Created with XmlGrid Free Online XML Editor (http://xmlgrid.net)-->
+<Row id="Nuremberg">
+  <name>Albrecht D�rer's house, Nuremberg</name>
+  <coordinates>11.074016,49.457162</coordinates>
+</Row>
+<Row id="Erlangen">
+  <name>Erlangen</name>
+  <coordinates>11.014267,49.590717</coordinates>
+</Row>
+<Row id="Baiersdorf">
+  <name>Baiersdorf</name>
+  <coordinates>11.034583,49.661089</coordinates>
+</Row>
+<Row id="Forchheim">
+  <name>Forchheim</name>
+  <coordinates>11.069883,49.721306</coordinates>
+</Row>
+<Row id="Bamberg">
+  <name>Bamberg</name>
+  <coordinates>10.902764,49.898813</coordinates>
+</Row>
+<Row id="Eltman">
+  <name>Eltman</name>
+  <coordinates>10.663506,49.96735199999999</coordinates>
+</Row>
+<Row id="Zeil">
+  <name>Zeil</name>
+  <coordinates>10.592212,50.01154600000001</coordinates>
+</Row>
+<Row id="Hassfurt">
+  <name>Hassfurt</name>
+  <coordinates>10.516975,50.034381</coordinates>
+</Row>
+<Row id="Theres">
+  <name>Theres</name>
+  <coordinates>10.4472,50.0192</coordinates>
+</Row>
+<Row id="Untereueurheim">
+  <name>Untereueurheim</name>
+  <coordinates>10.311587,49.985798</coordinates>
+</Row>
+<Row id="Mainberg">
+  <name>Mainberg</name>
+  <coordinates>10.288524,50.05751</coordinates>
+</Row>
+<Row id="Schweinfurt">
+  <name>Schweinfurt</name>
+  <coordinates>10.219423,50.049205</coordinates>
+</Row>
+<Row id="Volkach">
+  <name>Volkach</name>
+  <coordinates>10.230933,49.863989</coordinates>
+</Row>
+<Row id="Schwarzach">
+  <name>Schwarzach</name>
+  <coordinates>10.2333,49.8</coordinates>
+</Row>
+<Row id="Dettelbach">
+  <name>Dettelbach</name>
+  <coordinates>10.165725,49.803783</coordinates>
+</Row>
+<Row id="Kitzingen">
+  <name>Kitzingen</name>
+  <coordinates>10.147378,49.73408000000001</coordinates>
+</Row>
+<Row id="Sulzfelt">
+  <name>Sulzfelt am Main</name>
+  <coordinates>10.130096,49.707409</coordinates>
+</Row>
+<Row id="Marktbreit">
+  <name>Marktbreit</name>
+  <coordinates>10.148006,49.667361</coordinates>
+</Row>
+<Row id="Frickenhausen">
+  <name>Frickenhausen am Main</name>
+  <coordinates>10.086284,49.671016</coordinates>
+</Row>
+<Row id="Ochsenfurt">
+  <name>Ochsenfurt</name>
+  <coordinates>10.070901,49.664002</coordinates>
+</Row>
+<Row id="Eibelstadt">
+  <name>Eibelstadt</name>
+  <coordinates>10.001436,49.72556100000001</coordinates>
+</Row>
+<Row id="Heidingsfeld">
+  <name>Heidingsfeld</name>
+  <coordinates>9.943695999999999,49.762609</coordinates>
+</Row>
+<Row id="Wurzburg">
+  <name>Wurzburg</name>
+  <coordinates>9.953571,49.791595</coordinates>
+</Row>
+<Row id="Erlabrunn">
+  <name>Erlabrunn</name>
+  <coordinates>9.843527,49.858026</coordinates>
+</Row>
+<Row id="Retzbach">
+  <name>Retzbach</name>
+  <coordinates>9.823179,49.905233</coordinates>
+</Row>
+<Row id="Zellingen">
+  <name>Zellingen</name>
+  <coordinates>9.817292,49.895027</coordinates>
+</Row>
+<Row id="Karlstadt">
+  <name>Karlstadt</name>
+  <coordinates>9.77346,49.960478</coordinates>
+</Row>
+<Row id="Gm_�nden">
+  <name>Gm�nden</name>
+  <coordinates/>
+</Row>
+<Row id="Hofst_�tten">
+  <name>Hofst�tten</name>
+  <coordinates/>
+</Row>
+<Row id="Lohr">
+  <name>Lohr</name>
+  <coordinates>9.572231,49.989221</coordinates>
+</Row>
+<Row id="Neustadt">
+  <name>Neustadt am Main</name>
+  <coordinates>9.568631,49.932604</coordinates>
+</Row>
+<Row id="Rothenfels">
+  <name>Rothenfels</name>
+  <coordinates>9.59198,49.89174300000001</coordinates>
+</Row>
+<Row id="Antwerp">
+  <name>Antwerp</name>
+  <coordinates>4.402882,51.219216</coordinates>
+</Row>
+<Row id="ANTStecher">
+  <name>ANTStecher</name>
+  <coordinates/>
+</Row>
+<Row id="ANTFugger">
+  <name>The Fugger's House</name>
+  <coordinates>4.39815,51.21797</coordinates>
+</Row>
+<Row id="ANTBurgomaster">
+  <name>Burgomaster's House</name>
+  <coordinates>4.410493,51.220654</coordinates>
+</Row>
+<Row id="ANTGuild">
+  <name>Antwerp painters' guild hall</name>
+  <coordinates>4.40004,51.22136999999999</coordinates>
+</Row>
+<Row id="ANTMassys">
+  <name>Quentin Massys' house</name>
+  <coordinates>4.406695,51.216433</coordinates>
+</Row>
+<Row id="Stosser">
+  <name>Stosser</name>
+  <coordinates/>
+</Row>
+<Row id="West-Meerbeck">
+  <name>West-Meerbeck</name>
+  <coordinates/>
+</Row>
+<Row id="Triefenstein">
+  <name>Triefenstein</name>
+  <coordinates/>
+</Row>
+<Row id="Heidenfeld">
+  <name>Heidenfeld</name>
+  <coordinates/>
+</Row>
+<Row id="Homburg">
+  <name>Homburg am Main, Triefenstein</name>
+  <coordinates>9.623144999999999,49.791788</coordinates>
+</Row>
+<Row id="Wertheim">
+  <name>Wertheim am Main</name>
+  <coordinates>9.512851,49.758604</coordinates>
+</Row>
+<Row id="Prozelten">
+  <name>Prozeltener Weg, M__nchberg</name>
+  <coordinates>9.242798000000001,49.783265</coordinates>
+</Row>
+<Row id="Freudenberg">
+  <name>Freudenberg am Main</name>
+  <coordinates>9.326648,49.754077</coordinates>
+</Row>
+<Row id="Miltenberg">
+  <name>Miltenberg</name>
+  <coordinates>9.255921000000001,49.701929</coordinates>
+</Row>
+<Row id="Branthoek">
+  <name>Branthoek</name>
+  <coordinates/>
+</Row>
+<Row id="Uylenberg">
+  <name>Uylenberg</name>
+  <coordinates/>
+</Row>
+<Row id="Obernburg">
+  <name>Obernburg</name>
+  <coordinates>9.132358,49.838178</coordinates>
+</Row>
+<Row id="Aschaffenburg">
+  <name>Aschaffenburg</name>
+  <coordinates>9.152597,49.973547</coordinates>
+</Row>
+<Row id="Selgenstadt">
+  <name>Selgenstadt</name>
+  <coordinates>8.971133999999999,50.043701</coordinates>
+</Row>
+<Row id="Steinheim">
+  <name>Steinheim</name>
+  <coordinates>8.906852000000001,50.121369</coordinates>
+</Row>
+<Row id="Kesselstadt">
+  <name>Kesselstadt</name>
+  <coordinates>8.883417,50.13011399999999</coordinates>
+</Row>
+<Row id="Frankfurt">
+  <name>Frankfurt</name>
+  <coordinates>8.682126999999999,50.110922</coordinates>
+</Row>
+<Row id="Mainz">
+  <name>Mainz</name>
+  <coordinates>8.247253000000001,49.992862</coordinates>
+</Row>
+<Row id="Elfeld">
+  <name>Eltville</name>
+  <coordinates>8.119173,50.0289744</coordinates>
+</Row>
+<Row id="Rudesheim">
+  <name>R�desheim</name>
+  <coordinates>7.9301124,49.98214429999999</coordinates>
+</Row>
+<Row id="Ehrenfels">
+  <name>Ehrenfels</name>
+  <coordinates/>
+</Row>
+<Row id="Bacharach">
+  <name>Bacharach</name>
+  <coordinates>7.769451800000001,50.056877</coordinates>
+</Row>
+<Row id="Kaub">
+  <name>Kaub</name>
+  <coordinates>7.765754,50.0860701</coordinates>
+</Row>
+<Row id="SanktGoar">
+  <name>Sankt Goar</name>
+  <coordinates>7.713120200000001,50.1512782</coordinates>
+</Row>
+<Row id="Boppart">
+  <name>Boppart</name>
+  <coordinates>7.58853,50.2311996</coordinates>
+</Row>
+<Row id="Lahnstein">
+  <name>Lahnstein</name>
+  <coordinates>7.609363300000001,50.3078274</coordinates>
+</Row>
+<Row id="Engers">
+  <name>Engers</name>
+  <coordinates>7.545019799999999,50.42584069999999</coordinates>
+</Row>
+<Row id="Andernach">
+  <name>Andernach</name>
+  <coordinates>7.4086636,50.426057</coordinates>
+</Row>
+<Row id="Linz">
+  <name>Linz am Rhein, Germany</name>
+  <coordinates>7.2808,50.5658</coordinates>
+</Row>
+<Row id="Bonn">
+  <name>Bonn, Germany</name>
+  <coordinates>7.1000,50.7300</coordinates>
+</Row>
+<Row id="Koln">
+  <name>Cologne, Germany</name>
+  <coordinates>7.0292,50.9424</coordinates>
+</Row>
+<Row id="Busdorf">
+  <name>Busdorf, Germany</name>
+  <coordinates>6.709058,50.989871</coordinates>
+</Row>
+<Row id="Rodingen">
+  <name>Rodingen, Germany</name>
+  <coordinates>6.2831,50.8958</coordinates>
+</Row>
+<Row id="Frei-Aldenhoven">
+  <name>Aldenhoven, Germany</name>
+  <coordinates>6.2831,50.8958</coordinates>
+</Row>
+<Row id="Freelenberg">
+  <name>Freelenberg, Germany</name>
+  <coordinates/>
+</Row>
+<Row id="Gangelt">
+  <name>Gangelt, Germany</name>
+  <coordinates>5.99801,50.991951</coordinates>
+</Row>
+<Row id="Susterseel">
+  <name>Susterseel, Germany</name>
+  <coordinates>5.936667,50.999722</coordinates>
+</Row>
+<Row id="Sittard">
+  <name>Sittard, Germany</name>
+  <coordinates>5.867,51.017</coordinates>
+</Row>
+<Row id="Stockhem">
+  <name>Stockhem, Germany</name>
+  <coordinates/>
+</Row>
+</Document> 

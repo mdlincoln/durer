@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+	Albrecht Dürer's Diary of his Journey to the Netherlands 
+	
+	Based on: Marlier, Georges, and Marnix Gijsen, eds. "Albrecht Dürer: Diary of His Journey to the Netherlands, 1520-1521." Greenwich: New York Graphic Society, 1971.
+
+	Markup by Matthew Lincoln, 2013
+-->
+
+<diary>
+	<entry>
+		<date>1520-07-12</date>
+		<text><place id="Nuremberg">On Thursday after Kilian's, I, Albrecht Dürer, at my own charges and costs, took myself and <person id="AgnesFrey">my wife</person> away to the Netherlands.</place><place id="Erlangen"> And the same day, after passing through Erlangen</place><place id="Baiersdorf">, we put up for the night at Baiersdorf and spent there 3 pounds less 6 pfennigs.</place></text>
+	</entry>
+
+	<entry>
+		<date>1520-07-13</date>
+		<text><place id="Forchheim">Next day, Friday, we came to Forchheim and there I paid 22 pf. for the convoy.</place><place id="Bamberg"> Thence I journeyed to Bamberg where I presented <person id="GeorgSchenk">the Bishop</person> with a <artwork id="VirginPtg1">painting of the Virgin</artwork>, <artwork id="VirginCut1504">a Life of the Virgin</artwork>, <artwork id="ApocCut1498">an Apocalypse</artwork>, and <artwork id="MiscEng">a florin's worth of engravings</artwork>. He invited me as his guest, gave me a Toll-pass and three letters of introduction and paid my bill at the Inn, where I had spent about a florin.</place></text>
+	</entry>
+
+	<entry>
+		<date>1520-07-14</date>
+		<text><place id="Bamberg">I paid 6 florins in gold to the boatman who took me from Bamberg to <!-- Unclear what he means by Frankfurt here. It is entirely unlikely that he traveled 100 miles between modern-day Bamberg and Frankfurt in the space of a day -->Frankfurt. <person id="LukasBenedict">Master Lukas Benedict</person> and <person id="HansWolf">Hans the painter</person> sent me wine. 4 pf. for bread and 13 pf. as leaving gifts.</place><place id="Eltman"> Then I travelled from Bamberg to Eltman and I showed my pass and they let me go toll-free.</place><place id="Zeil"> Thence we passed by Zeil. I spent in the meantime 21 pf.</place><place id="Hassfurt"> Next I came to Hassfurt and presented my pass and they let me go toll-free. I paid 1 fl. into the <person id="GeorgSchenk">Bishop of Bamberg's</person> Chancery.</place><place id="Theres"> Next I came to Theres to the monastery, and I showed my pass and they also let me go on.</place><place id="Untereueurheim"> Then we journeyed to Unter-Euerheim where I stayed the night and spent 1 pf.</place></text>
+	</entry>
+
+	<entry>
+		<date>1520-07-15</date>
+		<text><place id="Mainberg">From thence we travelled to Mainberg and I presented my pass and they let me go toll-free.</place><place id="Schweinfurt"> We came next to Schweinfurt, where <person id="Rebart">Doctor Rebart</person> invited me, and he gave us wine in the boat. They let me also pass toll-free. A roast fowl 10 pf.; 18 pf. in the kitchen and for the child.</place><place id="Volkach"> Then we travelled to Volkach and I showed my pass and journeyed on,</place><place id="Schwarzach"> and we came to Schwarzach and there we stopped the night and I spend 22 pf.</place></text>
+	</entry>
+
+	<entry id="15200616">
+		<date>1520-07-16</date>
+		<text><place id="Dettelbach">And on Monday we were up early and after travelling by Dettebach</place><place id="Kitzingen"> we came to Kitzingen; and there I showed my pass and they let me go and I spent 37 pf.</place><place id="Sulzfelt"> Then we travelled on past Sulzfelt to </place><place id="Marktbreit">Marktbreit, and I showed my Pass and they let me go;</place><place id="Frickenhausen"> we went on past Frickenhausen</place><place id="Ochsenfurt"> to Ochsenfurt, there I showed my pass and there too they let me go.</place><place id="Eibelstadt"> And we came to Eibelstadt</place><palce id="Heidingsfeld">, from that to Heidingsfeld</palce><place id="Wurzburg">, and from that to Wurzburg. There I showed my pass and they let me go on. </place><place id="Erlabrunn">We went next to Erlabrunn and stopped this night there and I spent 22pf.</place></text>
+	</entry>
+
+	<entry id="15200617">
+		<date>1520-07-17</date>
+		<text><place id="Retzbach">From that we journeyed on past Retzbach</place><place id="Zellingen"> and Zellingen</place><place id="Karlstadt"> and came to Karlstadt; here I showed my pass and they let me go on.</place> Then I travelled to <!--<place id="Gmünden"> unknown! -->Gmünden, and we breakfasted there and spent 22 pf. I also showed my pass and they let me go by. we travelled then to <!--<place id="Hofstätten"> unknown!-->Hofstätten, I presented my pass and there they let me go. We came next to <place id="Lohr">Lohr</place>, wehere also I showed my pass and they let me go. Then we came to <place id="Neustadt">Neustadt</place> and showed our pass and they let me go by. Also I paid 10 pf. for wine and crabs. And we came next to <place id="Rothenfels">Rothenfels</place>, and I showed my pass and they let me free. We stayed the night there and spent 20 pf.</text>
+	</entry>
+
+	<entry id="15200618">
+		<date>1520-07-18</date>
+		<text>Early on Wednesday we started off and passed by St. Eucharius and came to <place id="Heidenfeld">Heidenfeld</place> and then to <place id="Triefenstein">Triefenstein</place>. We next came to <place id="Homburg">Homburg</place> where I showed my pass and they let me go on; then we came to <place id="Wertheim">Wertheim</place> and I showed my pass and they let me go off, and I spent 57 pf. We then went on to <place id="Prozelten">Prozelten</place>, here I presented my pass and they let me go. Next we went on past <place id="Freudenberg">Freudenberg</place>, where I once more showed my pass and they let me go, and we came to <place id="Miltenberg">Miltenberg</place> and stayed the night there. And I showed my pass and they let me go and I spent 61 pf.</text>
+	</entry>
+
+	<entry id="15200619">
+		<date>1520-07-19</date>
+		<text>From there we came to Klingenberg. I showed my pass and they let me through; and we came to <place id="Worth">Wörth</place> and from there passed <place id="Obernburg">Obernburg</place> to <place id="Aschaffenburg">Aschaffenburg</place>; here I presented my pass and they let me through, and I spent 52 pf. From there we journeyed on to <place id="Selgenstadt">Selgenstadt</place>; from there to <place id="Steinheim">Steinheim</place>, where I showed my letter and they let me go on, and we stayed with Johannes for the night, who showed us the town and was very friendly to us; there I spent 16pf.</text>
+	</entry>
+
+	<entry id="15200620">
+		<date>1520-07-20</date>
+		<text>and so early on Friday morning we travelled to <place id="Kesselstadt">Kesselstadt</place>, where I showed my pass and they let me go on; from there we came to <place id="Frankfurt">Frankfurt</place>, and I showed my pass again, and they let me through, and I spent 6 white pf. and one thaler and a half, and I gave the boy 2 white pf. <person id="JacobHeller">Herr Jacob Heller</person> gave me some wine at the inn.</text>
+	</entry>
+
+	<entry id="15200621">
+		<date>1520-07-21</date>
+		<text>I bargained to be taken with my goods from Frankfurt to Mainz for 1 florin and 2 white pf., and I also gave the lad 5 Frankfurt thaler, and for the night we spent 8 white pf. On Sunday I travelled by the early boat from Frankfurt to <place id="Mainz">Mainz</place>, and midway there we came to Höchst, where I showed my pass and they let me go on. I spent 8 Frankfurt pf. there. From there we journeyed to Mainz; I have also paid 1 white pf. for landing my things, besides 14 Frankfurt thaler to the boatmen and 18 pf. for a girdle; and I took passage in the Cologne boat for myself and my things for 3 florins, and at Mainz also I spent 17 white pf. <person id="PeterGoldschmidt">Peter Goldschmidt</person>, the warden there, gave me two bottles of wine. <person id="VeitVarnbuler">Veit Varnbüler</person> invited me, but his host would take no payment from him, insisting on being my host himself; they showed me much honor.</text>
+	</entry>
+
+	<entry id="15200622">
+		<date>1520-07-22</date>
+		<text><place id="Mainz">So I started away from Mainz, where the Main flows into the Rhine, and it was on the Monday after Magdalen's. I paid 10 Hellers for meat in the boat, and for eggs and pears 9 Hellers. Here too <person id="LeonardGoldschmidt">Leonard Goldschmidt</person> gave me wine and birds in the boat to cook on the way to Köln. <person id="MasterJobst">Master Jobst's</person> brother likewise gave me a bottle of wine; and the Painters gave me two bottles of wine in the boat.</place></text>
+	</entry>
+
+	<entry id="15200623">
+		<date>1520-07-23</date>
+		<text><place id="Elfeld">We came then to Elfeld where I showed my pass and they took no toll; </place><place id="Rudesheim">next we came to Rüdesheim. I paid also 2 white-pf. for bringing my things on board the boat. </place><place id="Ehrenfels">Then we came to Ehrenfels, and there I showed my pass but had to pay 2 fl. in gold. If however within two months I would bring them a free pass the toll-taker would give me back the 2 fl. in gold. </place></text>
+	</entry>
+
+	<entry id="15200624">
+		<date>1520-07-24</date>
+		<text><place id="Bacharach">After that we came to Bacharach, where I had to promise in writing that within two months I would either pay the toll or bring them a free-pass. </place><place id="Kaub">We came next to Kaub and I showed my pass, but it would carry me no further, and I had to promise in writing as before. I spent there 11 Hellers. </place></text>
+	</entry>
+
+	<entry id="15200625">
+		<date>1520-07-25</date>
+		<text><place id="SanktGoar">We then came to Sankt Goar, and here I showed my pass. The toll-taker asked me how they had treated me elsewhere. So I said I would pay him nothing. I paid 2 white-pf. to the messenger. </place></text>
+	</entry>
+
+	<entry id="15200626">
+		<date>1520-07-26</date>
+		<text><place id="Boppart">We came after that to Boppart and I showed my pass at the Trier toll-bar, and was let go by; only I had to certify in a short writing under my seal that I had with me no common merchandise, and then the man willingly let me go. </place><place id="Lahnstein">Next we came to Lahnstein and I showed my pass and the toll-taker let me go free, but he asked me to speak for him to my most gracious Lord of Mainz. He gave me also a can of wine, for he knew my wife well and was glad to see me. </place></text>
+	</entry>
+
+	<entry id="15200627">
+		<date>1520-07-27</date>
+		<text><place id="Engers">Then we came to Engers, which belongs to Trier, and I presented my pass and they let me go on toll-free. I said too that I would mention it to <person id="GeorgSchenk">my Lord of Bamberg</person>. </place><place id="Andernach">We came next to Andernach, and I presented my pass and they let me go free. I spent there 7 Hellers and 4 Hellers more.</place></text>
+	</entry>
+
+	<entry id="15200628">
+		<date>1520-07-28</date>
+		<text><place id="Linz">On St. James' day I travelled early from Andernach to Linz,</place><place id="Bonn"> and we went thence to the toll-station at Bonn, and there again they let me go by free.</place><place id="Koln"> And so we came to Köln; and I spent in the boat 9 white-pf and 1 more, and 4 pf. for fruit. At Köln I paid 7 white pf. for landing my things and I gave the boatmen 14 Hellers. And I have my <person id="Niklas">cousin Niklas</person> my black fur-lined coat, edged with velvet, and to his wife I gave a florin.</place></text>
+	</entry>
+
+	<entry id="15200629">
+		<date>1520-07-29</date>
+		<text><place id="Busdorf">After that, on St. Pantaleon's day, we travelled from Köln to a village called Büsdorf where we stayed over night and spent 3 white-pf.</place></text>
+	</entry>
+
+	<entry>
+		<date>1520-07-30</date>
+		<text><place id="Rodingen">And we went on Sunday early to Rödingen; we had breakfast there and I spend 2 white-pf., and 3 pf., and again 3pf.</place><place id="Frei-Aldenhoven"> Then we came to Frei-Aldenhoven where we lay for the night, and there I spent 3 white-pf.</place></text>
+	</entry>
+
+	<entry>
+		<date>1520-07-31</date>
+		<text><place id="Freelenberg">We went on thence early in the morning to Freelenberg</place><place id="Gangelt"> and passed the little town Gangelt,</place><place id="Susterseel"> and breakfasted at a village called Süsterseel, and spent two white-pf. 2 Heller; further 1 white-pf. Again 2 white-pf.</place><place id="Sittard"> Thence we travelled to Sittard - a fine little town -</place><place id="Stockhem"> and from there to Stockhem, which belongs to Liège. We had a pleasant inn here, and stayed the night and spent 4 white-pf.</place></text>
+	</entry>
+
+	<entry id="15200801">
+		<date>1520-08-01</date>
+		<text><!-- Unknown place -->And when we had crossed the Maas we started of early on Tuesday and came to Merten Lewbehen; there we had breakfast and spent 2 stivers, and I paid 1 whit-pf. for a young fowl.<place id="Stosser"> We journeyed on thence across the heath and came to the Stosser, where we spent 2 st. and lay for the night.</place></text>
+	</entry>
+
+	<entry id="15200802">
+		<date>1520-08-02</date>
+		<text><place id="West-Meerbeck">Early on Wednesday we went to West-Meerbeck. I bought 3 stivers' worth of bread and wine there </place><place id="Branthoek">, and then we went to Branthoek where we breakfasted and sptn 1 st.</place><place id="Uylenberg"> Next we travelled to Uylenberg and we stopped there for the night and spent 3 st. 2pf.</place></text>
+	</entry>
+
+	<entry id="15200803">
+		<date>1520-08-03</date>
+		<text>After that we went ealy on Thursday to <!--<place id="OptenKruys">-->Op ten Kruys and breakfasted there and spent 3 st. <place id="Antwerp">and we came next to Antwerp. At Antwerp I went to <person id="JobstPlankfelt">Jobst Plankfelt's</person> inn, and the same evening the Fugger's Factor, <person id="BernhardStecher">Bernhard Stecher</person>, invited me and gave us a costly meal. My <person id="AgnesFrey">wife</person> however dined at the inn. I paid the <person id="HansStaber">driver</person> 3 gold florins for bringing us three, and 1 st. I paid for carrying the goods.</place></text>
+	</entry>
+
+	<entry id="15200804">
+		<date>1520-08-04</date>
+		<text><place id="ANTBurgomaster">On Saturday after the fest of St. Peter in Chains my host took me to see the <person id="VanLier">Burgomaster's</person> house at Antwerp. It is newly built and beyond measure large, and very well ordered, with spacious and exceedingly beautiful chambers, a tower splendidly ornamented, a very large garden - altogether a noble house, the like of which I have nowhere seen in all Germany. The house also is reached from both sides by a very long street, which has been quite newly built according to the Burgomaster's liking and at his charges.</place></text>
+	</entry>
+
+	<entry id="15200805">
+		<date>1520-08-05</date>
+		<text><place id="ANTGuild">I paid 3 st. to the messenger, 2 pf. for bread, 2 pf. for ink. On Sunday, it was St. Oswald's day, the painters invited me to the hall of their guild, with my <person id="AgnesFrey">wife</person> and maid. All their service was of silver, and they had other splendid ornaments and very costly meats. All their wives also were there. And as I was being led to the table to company stood on both sides as if they were leading some great lord. And there were amongst them men of very high position, who all behaved most respectfully towards me with deep courtesy, and promised to do everything in their power agreeable to me that they knew of. And as I was sitting there in such honor the <person id="AdrianHorebouts">Syndic of Antwerp</person> came, with two servants, and presented me with four cans of wine in the name of the Town Councillors of Antwerp, and they had bidden him say that they wished thereby to show their respect for me and to assure me of their good will. Wherefore I returned them my humble thanks and offered my humble service. After that came <person id="MasterPeeter">Master Peeter</person>, the town-carpenter, and presented me with two cans of wine, with the offer of his willing services. So when we had spent a long and merry time together till late in the night, they accompanied us home with lanterns in great honor. And they begged me to be ever assured and confident of their good will, and promised that in whatever I did they would be all-helpful to me. So I thanked them and laid me down to sleep.</place></text>
+	</entry>
+
+	<entry id="15200806">
+		<date>1520-08-06</date>
+		<text>I have also been in <place id="ANTMassys">Master Quentin's house</place>, and to the three great shooting places. <place id="Antwerp">I received a costly feast at Lorenz Staiber's, and another time at the Portuguese Factor's whose portrait I drew in charcoal. Of my host, Jobst Plankfelt, I have also made a <artwork id="JobstPlankfelt">portrait</artwork>; he gave me a branch of white coral. Paid 2 st. for butter, 2 st. to the joiner at the Painter's warehouse. My host took me to the workshop in the Painters' warehouse at Antwerp, where they are making the Triumphal way through which King Charles is to make his entry. It is four hundred arches long, and each arch is 40 feet wide. They are to be set up along both sides of the street, handsomely ordered and two stories high. The plays are to be acted on them. It will cost the Painters and Joiners altogether 4000 florins. "Auch wird man das als vol darzu brennen", and the whole work is very splendidly done.</place></text>
+	</entry>
+</diary>

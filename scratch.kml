@@ -1,0 +1,1442 @@
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xpath="http://www.w3.org/2005/xpath-functions">
+  <Document>
+    <name>Albrecht Durer's Diary of his Trip to the Netherlands: 1520-1521</name>
+    <open>1</open>
+    <description>
+      <p>The German master artist Albrecht Dürer left art historians an unparalleled archival legacy with his detailed diary of his trip to the Netherlands in 1520-1521. This text is invaluable for documenting Dürer's encounter with the art and artists of the Netherlands, as well as his opinions on the growing religious tensions in northern Europe. Beyond this, however, Dürer’s meticulous journal offers a glimpse of a sixteenth-century international traveler's day-to-day experience, telling us of his quotidian purchases, sales and gifts of small sketches, and personal interactions large and small as he traveled between the great cities of the north.</p>
+      <p>This map has been generated from entries for the first month of Dürer's journey recorded in Georges Marlier and Marnix Gijsen’s text Albrecht Dürer: Diary of His Journey to the Netherlands, 1520-1521. By encoding the text as an XML document where places, people, and artworks are marked as elements in a hierarchical tree of diary entries, Ph. D student Matthew Lincoln was able to create a machine-readable "index" of the diary. A computerized script (written in XSLT) was written to translate this document into a KML file to be displayed in Google Earth.</p>
+      <p>All the placemarks on this map - places, people, and artworks - are timestamped, so that by adjusting the time slider in the Google Earth interface one may visualize Dürer's journey through space and time in a way not easily grasped by reading the diary text alone. By clicking on individual placemarks, you may read the specific diary entry from which that marker was derived, connecting you directly back to the primary source. Because this map is computer-generated, future additions and revisions to the digitized diary text can be automatically incorporated.</p>
+      <hr/>
+      <p>By <a href="http://mlincoln.wordpress.com">Matthew Lincoln, 2013</a></p>
+      <p>Ph.D student, Graduate Assistant in the Digital Humanitites, Department of Art History and Archaeology, University of Maryland, College Park.</p>
+    </description>
+    <StyleMap id="msn_square">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#square</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#Hsquare</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="square">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="Hsquare">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/square.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="city">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#cityN</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#cityH</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="cityH">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="cityN">
+      <IconStyle>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="person">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#p1</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#p2</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="p1">
+      <IconStyle>
+        <scale>0.9</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="p2">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/man.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <Placemark>
+      <name>Dürer's Path</name>
+      <Style id="line">
+        <LineStyle>
+          <color>ff0080ff</color>
+          <width>3</width>
+        </LineStyle>
+      </Style>
+      <TimeSpan>
+        <begin>1520-07-12</begin>
+        <end>1520-08-06</end>
+      </TimeSpan>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>11.074016,49.457162 
+    						11.014267,49.590717 
+    						11.034583,49.661089 
+    						11.069883,49.721306 
+    						10.902764,49.898813 
+    						10.902764,49.898813 
+    						10.663506,49.96735199999999 
+    						10.592212,50.01154600000001 
+    						10.516975,50.034381 
+    						10.4472,50.0192 
+    						10.311587,49.985798 
+    						10.288524,50.05751 
+    						10.219423,50.049205 
+    						10.230933,49.863989 
+    						10.2333,49.8 
+    						10.165725,49.803783 
+    						10.147378,49.73408000000001 
+    						10.130096,49.707409 
+    						10.148006,49.667361 
+    						10.086284,49.671016 
+    						10.070901,49.664002 
+    						10.001436,49.72556100000001 
+    						9.953571,49.791595 
+    						9.843527,49.858026 
+    						9.823179,49.905233 
+    						9.817292,49.895027 
+    						9.77346,49.960478 
+    						9.572231,49.989221 
+    						9.568631,49.932604 
+    						9.59198,49.89174300000001 
+    						9.623144999999999,49.791788 
+    						9.512851,49.758604 
+    						9.242798000000001,49.783265 
+    						9.326648,49.754077 
+    						9.255921000000001,49.701929 
+    						9.132358,49.838178 
+    						9.152597,49.973547 
+    						8.971133999999999,50.043701 
+    						8.906852000000001,50.121369 
+    						8.883417,50.13011399999999 
+    						8.682126999999999,50.110922 
+    						8.247253000000001,49.992862 
+    						8.247253000000001,49.992862 
+    						8.119173,50.0289744 
+    						7.9301124,49.98214429999999 
+    						7.769451800000001,50.056877 
+    						7.765754,50.0860701 
+    						7.713120200000001,50.1512782 
+    						7.58853,50.2311996 
+    						7.609363300000001,50.3078274 
+    						7.545019799999999,50.42584069999999 
+    						7.4086636,50.426057 
+    						7.2808,50.5658 
+    						7.1000,50.7300 
+    						7.0292,50.9424 
+    						6.709058,50.989871 
+    						6.2831,50.8958 
+    						6.2831,50.8958 
+    						5.99801,50.991951 
+    						5.936667,50.999722 
+    						5.867,51.017 
+    						4.402882,51.219216 
+    						4.410493,51.220654 
+    						4.40004,51.22136999999999 
+    						4.406695,51.216433 
+    						4.402882,51.219216 
+    						</coordinates>
+      </LineString>
+    </Placemark>
+    <Folder>
+      <name>The Places</name>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Albrecht D�rer's house, Nuremberg</name>
+        <TimeStamp>1520-07-12</TimeStamp>
+        <description>
+          <p><b>1520-07-12: </b>"On Thursday after Kilian's, I, Albrecht Dürer, at my own charges and costs, took myself and my wife away to the Netherlands. And the same day, after passing through Erlangen, we put up for the night at Baiersdorf and spent there 3 pounds less 6 pfennigs."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>11.074016,49.457162</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Erlangen</name>
+        <TimeStamp>1520-07-12</TimeStamp>
+        <description>
+          <p><b>1520-07-12: </b>"On Thursday after Kilian's, I, Albrecht Dürer, at my own charges and costs, took myself and my wife away to the Netherlands. And the same day, after passing through Erlangen, we put up for the night at Baiersdorf and spent there 3 pounds less 6 pfennigs."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>11.014267,49.590717</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Baiersdorf</name>
+        <TimeStamp>1520-07-12</TimeStamp>
+        <description>
+          <p><b>1520-07-12: </b>"On Thursday after Kilian's, I, Albrecht Dürer, at my own charges and costs, took myself and my wife away to the Netherlands. And the same day, after passing through Erlangen, we put up for the night at Baiersdorf and spent there 3 pounds less 6 pfennigs."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>11.034583,49.661089</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Forchheim</name>
+        <TimeStamp>1520-07-13</TimeStamp>
+        <description>
+          <p><b>1520-07-13: </b>"Next day, Friday, we came to Forchheim and there I paid 22 pf. for the convoy. Thence I journeyed to Bamberg where I presented the Bishop with a painting of the Virgin, a Life of the Virgin, an Apocalypse, and a florin's worth of engravings. He invited me as his guest, gave me a Toll-pass and three letters of introduction and paid my bill at the Inn, where I had spent about a florin."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>11.069883,49.721306</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Bamberg</name>
+        <TimeStamp>1520-07-13</TimeStamp>
+        <description>
+          <p><b>1520-07-13: </b>"Next day, Friday, we came to Forchheim and there I paid 22 pf. for the convoy. Thence I journeyed to Bamberg where I presented the Bishop with a painting of the Virgin, a Life of the Virgin, an Apocalypse, and a florin's worth of engravings. He invited me as his guest, gave me a Toll-pass and three letters of introduction and paid my bill at the Inn, where I had spent about a florin."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.902764,49.898813</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Bamberg</name>
+        <TimeStamp>1520-07-14</TimeStamp>
+        <description>
+          <p><b>1520-07-14: </b>"I paid 6 florins in gold to the boatman who took me from Bamberg to Frankfurt. Master Lukas Benedict and Hans the painter sent me wine. 4 pf. for bread and 13 pf. as leaving gifts. Then I travelled from Bamberg to Eltman and I showed my pass and they let me go toll-free. Thence we passed by Zeil. I spent in the meantime 21 pf. Next I came to Hassfurt and presented my pass and they let me go toll-free. I paid 1 fl. into the Bishop of Bamberg's Chancery. Next I came to Theres to the monastery, and I showed my pass and they also let me go on. Then we journeyed to Unter-Euerheim where I stayed the night and spent 1 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.902764,49.898813</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Eltman</name>
+        <TimeStamp>1520-07-14</TimeStamp>
+        <description>
+          <p><b>1520-07-14: </b>"I paid 6 florins in gold to the boatman who took me from Bamberg to Frankfurt. Master Lukas Benedict and Hans the painter sent me wine. 4 pf. for bread and 13 pf. as leaving gifts. Then I travelled from Bamberg to Eltman and I showed my pass and they let me go toll-free. Thence we passed by Zeil. I spent in the meantime 21 pf. Next I came to Hassfurt and presented my pass and they let me go toll-free. I paid 1 fl. into the Bishop of Bamberg's Chancery. Next I came to Theres to the monastery, and I showed my pass and they also let me go on. Then we journeyed to Unter-Euerheim where I stayed the night and spent 1 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.663506,49.96735199999999</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Zeil</name>
+        <TimeStamp>1520-07-14</TimeStamp>
+        <description>
+          <p><b>1520-07-14: </b>"I paid 6 florins in gold to the boatman who took me from Bamberg to Frankfurt. Master Lukas Benedict and Hans the painter sent me wine. 4 pf. for bread and 13 pf. as leaving gifts. Then I travelled from Bamberg to Eltman and I showed my pass and they let me go toll-free. Thence we passed by Zeil. I spent in the meantime 21 pf. Next I came to Hassfurt and presented my pass and they let me go toll-free. I paid 1 fl. into the Bishop of Bamberg's Chancery. Next I came to Theres to the monastery, and I showed my pass and they also let me go on. Then we journeyed to Unter-Euerheim where I stayed the night and spent 1 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.592212,50.01154600000001</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Hassfurt</name>
+        <TimeStamp>1520-07-14</TimeStamp>
+        <description>
+          <p><b>1520-07-14: </b>"I paid 6 florins in gold to the boatman who took me from Bamberg to Frankfurt. Master Lukas Benedict and Hans the painter sent me wine. 4 pf. for bread and 13 pf. as leaving gifts. Then I travelled from Bamberg to Eltman and I showed my pass and they let me go toll-free. Thence we passed by Zeil. I spent in the meantime 21 pf. Next I came to Hassfurt and presented my pass and they let me go toll-free. I paid 1 fl. into the Bishop of Bamberg's Chancery. Next I came to Theres to the monastery, and I showed my pass and they also let me go on. Then we journeyed to Unter-Euerheim where I stayed the night and spent 1 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.516975,50.034381</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Theres</name>
+        <TimeStamp>1520-07-14</TimeStamp>
+        <description>
+          <p><b>1520-07-14: </b>"I paid 6 florins in gold to the boatman who took me from Bamberg to Frankfurt. Master Lukas Benedict and Hans the painter sent me wine. 4 pf. for bread and 13 pf. as leaving gifts. Then I travelled from Bamberg to Eltman and I showed my pass and they let me go toll-free. Thence we passed by Zeil. I spent in the meantime 21 pf. Next I came to Hassfurt and presented my pass and they let me go toll-free. I paid 1 fl. into the Bishop of Bamberg's Chancery. Next I came to Theres to the monastery, and I showed my pass and they also let me go on. Then we journeyed to Unter-Euerheim where I stayed the night and spent 1 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.4472,50.0192</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Untereueurheim</name>
+        <TimeStamp>1520-07-14</TimeStamp>
+        <description>
+          <p><b>1520-07-14: </b>"I paid 6 florins in gold to the boatman who took me from Bamberg to Frankfurt. Master Lukas Benedict and Hans the painter sent me wine. 4 pf. for bread and 13 pf. as leaving gifts. Then I travelled from Bamberg to Eltman and I showed my pass and they let me go toll-free. Thence we passed by Zeil. I spent in the meantime 21 pf. Next I came to Hassfurt and presented my pass and they let me go toll-free. I paid 1 fl. into the Bishop of Bamberg's Chancery. Next I came to Theres to the monastery, and I showed my pass and they also let me go on. Then we journeyed to Unter-Euerheim where I stayed the night and spent 1 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.311587,49.985798</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Mainberg</name>
+        <TimeStamp>1520-07-15</TimeStamp>
+        <description>
+          <p><b>1520-07-15: </b>"From thence we travelled to Mainberg and I presented my pass and they let me go toll-free. We came next to Schweinfurt, where Doctor Rebart invited me, and he gave us wine in the boat. They let me also pass toll-free. A roast fowl 10 pf.; 18 pf. in the kitchen and for the child. Then we travelled to Volkach and I showed my pass and journeyed on, and we came to Schwarzach and there we stopped the night and I spend 22 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.288524,50.05751</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Schweinfurt</name>
+        <TimeStamp>1520-07-15</TimeStamp>
+        <description>
+          <p><b>1520-07-15: </b>"From thence we travelled to Mainberg and I presented my pass and they let me go toll-free. We came next to Schweinfurt, where Doctor Rebart invited me, and he gave us wine in the boat. They let me also pass toll-free. A roast fowl 10 pf.; 18 pf. in the kitchen and for the child. Then we travelled to Volkach and I showed my pass and journeyed on, and we came to Schwarzach and there we stopped the night and I spend 22 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.219423,50.049205</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Volkach</name>
+        <TimeStamp>1520-07-15</TimeStamp>
+        <description>
+          <p><b>1520-07-15: </b>"From thence we travelled to Mainberg and I presented my pass and they let me go toll-free. We came next to Schweinfurt, where Doctor Rebart invited me, and he gave us wine in the boat. They let me also pass toll-free. A roast fowl 10 pf.; 18 pf. in the kitchen and for the child. Then we travelled to Volkach and I showed my pass and journeyed on, and we came to Schwarzach and there we stopped the night and I spend 22 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.230933,49.863989</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Schwarzach</name>
+        <TimeStamp>1520-07-15</TimeStamp>
+        <description>
+          <p><b>1520-07-15: </b>"From thence we travelled to Mainberg and I presented my pass and they let me go toll-free. We came next to Schweinfurt, where Doctor Rebart invited me, and he gave us wine in the boat. They let me also pass toll-free. A roast fowl 10 pf.; 18 pf. in the kitchen and for the child. Then we travelled to Volkach and I showed my pass and journeyed on, and we came to Schwarzach and there we stopped the night and I spend 22 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.2333,49.8</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Dettelbach</name>
+        <TimeStamp>1520-07-16</TimeStamp>
+        <description>
+          <p><b>1520-07-16: </b>"And on Monday we were up early and after travelling by Dettebach we came to Kitzingen; and there I showed my pass and they let me go and I spent 37 pf. Then we travelled on past Sulzfelt to Marktbreit, and I showed my Pass and they let me go; we went on past Frickenhausen to Ochsenfurt, there I showed my pass and there too they let me go. And we came to Eibelstadt, from that to Heidingsfeld, and from that to Wurzburg. There I showed my pass and they let me go on. We went next to Erlabrunn and stopped this night there and I spent 22pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.165725,49.803783</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Kitzingen</name>
+        <TimeStamp>1520-07-16</TimeStamp>
+        <description>
+          <p><b>1520-07-16: </b>"And on Monday we were up early and after travelling by Dettebach we came to Kitzingen; and there I showed my pass and they let me go and I spent 37 pf. Then we travelled on past Sulzfelt to Marktbreit, and I showed my Pass and they let me go; we went on past Frickenhausen to Ochsenfurt, there I showed my pass and there too they let me go. And we came to Eibelstadt, from that to Heidingsfeld, and from that to Wurzburg. There I showed my pass and they let me go on. We went next to Erlabrunn and stopped this night there and I spent 22pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.147378,49.73408000000001</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Sulzfelt am Main</name>
+        <TimeStamp>1520-07-16</TimeStamp>
+        <description>
+          <p><b>1520-07-16: </b>"And on Monday we were up early and after travelling by Dettebach we came to Kitzingen; and there I showed my pass and they let me go and I spent 37 pf. Then we travelled on past Sulzfelt to Marktbreit, and I showed my Pass and they let me go; we went on past Frickenhausen to Ochsenfurt, there I showed my pass and there too they let me go. And we came to Eibelstadt, from that to Heidingsfeld, and from that to Wurzburg. There I showed my pass and they let me go on. We went next to Erlabrunn and stopped this night there and I spent 22pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.130096,49.707409</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Marktbreit</name>
+        <TimeStamp>1520-07-16</TimeStamp>
+        <description>
+          <p><b>1520-07-16: </b>"And on Monday we were up early and after travelling by Dettebach we came to Kitzingen; and there I showed my pass and they let me go and I spent 37 pf. Then we travelled on past Sulzfelt to Marktbreit, and I showed my Pass and they let me go; we went on past Frickenhausen to Ochsenfurt, there I showed my pass and there too they let me go. And we came to Eibelstadt, from that to Heidingsfeld, and from that to Wurzburg. There I showed my pass and they let me go on. We went next to Erlabrunn and stopped this night there and I spent 22pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.148006,49.667361</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Frickenhausen am Main</name>
+        <TimeStamp>1520-07-16</TimeStamp>
+        <description>
+          <p><b>1520-07-16: </b>"And on Monday we were up early and after travelling by Dettebach we came to Kitzingen; and there I showed my pass and they let me go and I spent 37 pf. Then we travelled on past Sulzfelt to Marktbreit, and I showed my Pass and they let me go; we went on past Frickenhausen to Ochsenfurt, there I showed my pass and there too they let me go. And we came to Eibelstadt, from that to Heidingsfeld, and from that to Wurzburg. There I showed my pass and they let me go on. We went next to Erlabrunn and stopped this night there and I spent 22pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.086284,49.671016</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Ochsenfurt</name>
+        <TimeStamp>1520-07-16</TimeStamp>
+        <description>
+          <p><b>1520-07-16: </b>"And on Monday we were up early and after travelling by Dettebach we came to Kitzingen; and there I showed my pass and they let me go and I spent 37 pf. Then we travelled on past Sulzfelt to Marktbreit, and I showed my Pass and they let me go; we went on past Frickenhausen to Ochsenfurt, there I showed my pass and there too they let me go. And we came to Eibelstadt, from that to Heidingsfeld, and from that to Wurzburg. There I showed my pass and they let me go on. We went next to Erlabrunn and stopped this night there and I spent 22pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.070901,49.664002</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Eibelstadt</name>
+        <TimeStamp>1520-07-16</TimeStamp>
+        <description>
+          <p><b>1520-07-16: </b>"And on Monday we were up early and after travelling by Dettebach we came to Kitzingen; and there I showed my pass and they let me go and I spent 37 pf. Then we travelled on past Sulzfelt to Marktbreit, and I showed my Pass and they let me go; we went on past Frickenhausen to Ochsenfurt, there I showed my pass and there too they let me go. And we came to Eibelstadt, from that to Heidingsfeld, and from that to Wurzburg. There I showed my pass and they let me go on. We went next to Erlabrunn and stopped this night there and I spent 22pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>10.001436,49.72556100000001</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Wurzburg</name>
+        <TimeStamp>1520-07-16</TimeStamp>
+        <description>
+          <p><b>1520-07-16: </b>"And on Monday we were up early and after travelling by Dettebach we came to Kitzingen; and there I showed my pass and they let me go and I spent 37 pf. Then we travelled on past Sulzfelt to Marktbreit, and I showed my Pass and they let me go; we went on past Frickenhausen to Ochsenfurt, there I showed my pass and there too they let me go. And we came to Eibelstadt, from that to Heidingsfeld, and from that to Wurzburg. There I showed my pass and they let me go on. We went next to Erlabrunn and stopped this night there and I spent 22pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.953571,49.791595</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Erlabrunn</name>
+        <TimeStamp>1520-07-16</TimeStamp>
+        <description>
+          <p><b>1520-07-16: </b>"And on Monday we were up early and after travelling by Dettebach we came to Kitzingen; and there I showed my pass and they let me go and I spent 37 pf. Then we travelled on past Sulzfelt to Marktbreit, and I showed my Pass and they let me go; we went on past Frickenhausen to Ochsenfurt, there I showed my pass and there too they let me go. And we came to Eibelstadt, from that to Heidingsfeld, and from that to Wurzburg. There I showed my pass and they let me go on. We went next to Erlabrunn and stopped this night there and I spent 22pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.843527,49.858026</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Retzbach</name>
+        <TimeStamp>1520-07-17</TimeStamp>
+        <description>
+          <p><b>1520-07-17: </b>"From that we journeyed on past Retzbach and Zellingen and came to Karlstadt; here I showed my pass and they let me go on. Then I travelled to Gmünden, and we breakfasted there and spent 22 pf. I also showed my pass and they let me go by. we travelled then to Hofstätten, I presented my pass and there they let me go. We came next to Lohr, wehere also I showed my pass and they let me go. Then we came to Neustadt and showed our pass and they let me go by. Also I paid 10 pf. for wine and crabs. And we came next to Rothenfels, and I showed my pass and they let me free. We stayed the night there and spent 20 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.823179,49.905233</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Zellingen</name>
+        <TimeStamp>1520-07-17</TimeStamp>
+        <description>
+          <p><b>1520-07-17: </b>"From that we journeyed on past Retzbach and Zellingen and came to Karlstadt; here I showed my pass and they let me go on. Then I travelled to Gmünden, and we breakfasted there and spent 22 pf. I also showed my pass and they let me go by. we travelled then to Hofstätten, I presented my pass and there they let me go. We came next to Lohr, wehere also I showed my pass and they let me go. Then we came to Neustadt and showed our pass and they let me go by. Also I paid 10 pf. for wine and crabs. And we came next to Rothenfels, and I showed my pass and they let me free. We stayed the night there and spent 20 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.817292,49.895027</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Karlstadt</name>
+        <TimeStamp>1520-07-17</TimeStamp>
+        <description>
+          <p><b>1520-07-17: </b>"From that we journeyed on past Retzbach and Zellingen and came to Karlstadt; here I showed my pass and they let me go on. Then I travelled to Gmünden, and we breakfasted there and spent 22 pf. I also showed my pass and they let me go by. we travelled then to Hofstätten, I presented my pass and there they let me go. We came next to Lohr, wehere also I showed my pass and they let me go. Then we came to Neustadt and showed our pass and they let me go by. Also I paid 10 pf. for wine and crabs. And we came next to Rothenfels, and I showed my pass and they let me free. We stayed the night there and spent 20 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.77346,49.960478</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Lohr</name>
+        <TimeStamp>1520-07-17</TimeStamp>
+        <description>
+          <p><b>1520-07-17: </b>"From that we journeyed on past Retzbach and Zellingen and came to Karlstadt; here I showed my pass and they let me go on. Then I travelled to Gmünden, and we breakfasted there and spent 22 pf. I also showed my pass and they let me go by. we travelled then to Hofstätten, I presented my pass and there they let me go. We came next to Lohr, wehere also I showed my pass and they let me go. Then we came to Neustadt and showed our pass and they let me go by. Also I paid 10 pf. for wine and crabs. And we came next to Rothenfels, and I showed my pass and they let me free. We stayed the night there and spent 20 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.572231,49.989221</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Neustadt am Main</name>
+        <TimeStamp>1520-07-17</TimeStamp>
+        <description>
+          <p><b>1520-07-17: </b>"From that we journeyed on past Retzbach and Zellingen and came to Karlstadt; here I showed my pass and they let me go on. Then I travelled to Gmünden, and we breakfasted there and spent 22 pf. I also showed my pass and they let me go by. we travelled then to Hofstätten, I presented my pass and there they let me go. We came next to Lohr, wehere also I showed my pass and they let me go. Then we came to Neustadt and showed our pass and they let me go by. Also I paid 10 pf. for wine and crabs. And we came next to Rothenfels, and I showed my pass and they let me free. We stayed the night there and spent 20 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.568631,49.932604</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Rothenfels</name>
+        <TimeStamp>1520-07-17</TimeStamp>
+        <description>
+          <p><b>1520-07-17: </b>"From that we journeyed on past Retzbach and Zellingen and came to Karlstadt; here I showed my pass and they let me go on. Then I travelled to Gmünden, and we breakfasted there and spent 22 pf. I also showed my pass and they let me go by. we travelled then to Hofstätten, I presented my pass and there they let me go. We came next to Lohr, wehere also I showed my pass and they let me go. Then we came to Neustadt and showed our pass and they let me go by. Also I paid 10 pf. for wine and crabs. And we came next to Rothenfels, and I showed my pass and they let me free. We stayed the night there and spent 20 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.59198,49.89174300000001</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Homburg am Main, Triefenstein</name>
+        <TimeStamp>1520-07-18</TimeStamp>
+        <description>
+          <p><b>1520-07-18: </b>"Early on Wednesday we started off and passed by St. Eucharius and came to Heidenfeld and then to Triefenstein. We next came to Homburg where I showed my pass and they let me go on; then we came to Wertheim and I showed my pass and they let me go off, and I spent 57 pf. We then went on to Prozelten, here I presented my pass and they let me go. Next we went on past Freudenberg, where I once more showed my pass and they let me go, and we came to Miltenberg and stayed the night there. And I showed my pass and they let me go and I spent 61 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.623144999999999,49.791788</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Wertheim am Main</name>
+        <TimeStamp>1520-07-18</TimeStamp>
+        <description>
+          <p><b>1520-07-18: </b>"Early on Wednesday we started off and passed by St. Eucharius and came to Heidenfeld and then to Triefenstein. We next came to Homburg where I showed my pass and they let me go on; then we came to Wertheim and I showed my pass and they let me go off, and I spent 57 pf. We then went on to Prozelten, here I presented my pass and they let me go. Next we went on past Freudenberg, where I once more showed my pass and they let me go, and we came to Miltenberg and stayed the night there. And I showed my pass and they let me go and I spent 61 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.512851,49.758604</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Prozeltener Weg, M__nchberg</name>
+        <TimeStamp>1520-07-18</TimeStamp>
+        <description>
+          <p><b>1520-07-18: </b>"Early on Wednesday we started off and passed by St. Eucharius and came to Heidenfeld and then to Triefenstein. We next came to Homburg where I showed my pass and they let me go on; then we came to Wertheim and I showed my pass and they let me go off, and I spent 57 pf. We then went on to Prozelten, here I presented my pass and they let me go. Next we went on past Freudenberg, where I once more showed my pass and they let me go, and we came to Miltenberg and stayed the night there. And I showed my pass and they let me go and I spent 61 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.242798000000001,49.783265</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Freudenberg am Main</name>
+        <TimeStamp>1520-07-18</TimeStamp>
+        <description>
+          <p><b>1520-07-18: </b>"Early on Wednesday we started off and passed by St. Eucharius and came to Heidenfeld and then to Triefenstein. We next came to Homburg where I showed my pass and they let me go on; then we came to Wertheim and I showed my pass and they let me go off, and I spent 57 pf. We then went on to Prozelten, here I presented my pass and they let me go. Next we went on past Freudenberg, where I once more showed my pass and they let me go, and we came to Miltenberg and stayed the night there. And I showed my pass and they let me go and I spent 61 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.326648,49.754077</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Miltenberg</name>
+        <TimeStamp>1520-07-18</TimeStamp>
+        <description>
+          <p><b>1520-07-18: </b>"Early on Wednesday we started off and passed by St. Eucharius and came to Heidenfeld and then to Triefenstein. We next came to Homburg where I showed my pass and they let me go on; then we came to Wertheim and I showed my pass and they let me go off, and I spent 57 pf. We then went on to Prozelten, here I presented my pass and they let me go. Next we went on past Freudenberg, where I once more showed my pass and they let me go, and we came to Miltenberg and stayed the night there. And I showed my pass and they let me go and I spent 61 pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.255921000000001,49.701929</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Obernburg</name>
+        <TimeStamp>1520-07-19</TimeStamp>
+        <description>
+          <p><b>1520-07-19: </b>"From there we came to Klingenberg. I showed my pass and they let me through; and we came to Wörth and from there passed Obernburg to Aschaffenburg; here I presented my pass and they let me through, and I spent 52 pf. From there we journeyed on to Selgenstadt; from there to Steinheim, where I showed my letter and they let me go on, and we stayed with Johannes for the night, who showed us the town and was very friendly to us; there I spent 16pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.132358,49.838178</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Aschaffenburg</name>
+        <TimeStamp>1520-07-19</TimeStamp>
+        <description>
+          <p><b>1520-07-19: </b>"From there we came to Klingenberg. I showed my pass and they let me through; and we came to Wörth and from there passed Obernburg to Aschaffenburg; here I presented my pass and they let me through, and I spent 52 pf. From there we journeyed on to Selgenstadt; from there to Steinheim, where I showed my letter and they let me go on, and we stayed with Johannes for the night, who showed us the town and was very friendly to us; there I spent 16pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>9.152597,49.973547</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Selgenstadt</name>
+        <TimeStamp>1520-07-19</TimeStamp>
+        <description>
+          <p><b>1520-07-19: </b>"From there we came to Klingenberg. I showed my pass and they let me through; and we came to Wörth and from there passed Obernburg to Aschaffenburg; here I presented my pass and they let me through, and I spent 52 pf. From there we journeyed on to Selgenstadt; from there to Steinheim, where I showed my letter and they let me go on, and we stayed with Johannes for the night, who showed us the town and was very friendly to us; there I spent 16pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>8.971133999999999,50.043701</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Steinheim</name>
+        <TimeStamp>1520-07-19</TimeStamp>
+        <description>
+          <p><b>1520-07-19: </b>"From there we came to Klingenberg. I showed my pass and they let me through; and we came to Wörth and from there passed Obernburg to Aschaffenburg; here I presented my pass and they let me through, and I spent 52 pf. From there we journeyed on to Selgenstadt; from there to Steinheim, where I showed my letter and they let me go on, and we stayed with Johannes for the night, who showed us the town and was very friendly to us; there I spent 16pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>8.906852000000001,50.121369</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Kesselstadt</name>
+        <TimeStamp>1520-07-20</TimeStamp>
+        <description>
+          <p><b>1520-07-20: </b>"and so early on Friday morning we travelled to Kesselstadt, where I showed my pass and they let me go on; from there we came to Frankfurt, and I showed my pass again, and they let me through, and I spent 6 white pf. and one thaler and a half, and I gave the boy 2 white pf. Herr Jacob Heller gave me some wine at the inn."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>8.883417,50.13011399999999</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Frankfurt</name>
+        <TimeStamp>1520-07-20</TimeStamp>
+        <description>
+          <p><b>1520-07-20: </b>"and so early on Friday morning we travelled to Kesselstadt, where I showed my pass and they let me go on; from there we came to Frankfurt, and I showed my pass again, and they let me through, and I spent 6 white pf. and one thaler and a half, and I gave the boy 2 white pf. Herr Jacob Heller gave me some wine at the inn."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>8.682126999999999,50.110922</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Mainz</name>
+        <TimeStamp>1520-07-21</TimeStamp>
+        <description>
+          <p><b>1520-07-21: </b>"I bargained to be taken with my goods from Frankfurt to Mainz for 1 florin and 2 white pf., and I also gave the lad 5 Frankfurt thaler, and for the night we spent 8 white pf. On Sunday I travelled by the early boat from Frankfurt to Mainz, and midway there we came to Höchst, where I showed my pass and they let me go on. I spent 8 Frankfurt pf. there. From there we journeyed to Mainz; I have also paid 1 white pf. for landing my things, besides 14 Frankfurt thaler to the boatmen and 18 pf. for a girdle; and I took passage in the Cologne boat for myself and my things for 3 florins, and at Mainz also I spent 17 white pf. Peter Goldschmidt, the warden there, gave me two bottles of wine. Veit Varnbüler invited me, but his host would take no payment from him, insisting on being my host himself; they showed me much honor."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>8.247253000000001,49.992862</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Mainz</name>
+        <TimeStamp>1520-07-22</TimeStamp>
+        <description>
+          <p><b>1520-07-22: </b>"So I started away from Mainz, where the Main flows into the Rhine, and it was on the Monday after Magdalen's. I paid 10 Hellers for meat in the boat, and for eggs and pears 9 Hellers. Here too Leonard Goldschmidt gave me wine and birds in the boat to cook on the way to Köln. Master Jobst's brother likewise gave me a bottle of wine; and the Painters gave me two bottles of wine in the boat."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>8.247253000000001,49.992862</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Eltville</name>
+        <TimeStamp>1520-07-23</TimeStamp>
+        <description>
+          <p><b>1520-07-23: </b>"We came then to Elfeld where I showed my pass and they took no toll; next we came to Rüdesheim. I paid also 2 white-pf. for bringing my things on board the boat. Then we came to Ehrenfels, and there I showed my pass but had to pay 2 fl. in gold. If however within two months I would bring them a free pass the toll-taker would give me back the 2 fl. in gold. "</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>8.119173,50.0289744</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>R�desheim</name>
+        <TimeStamp>1520-07-23</TimeStamp>
+        <description>
+          <p><b>1520-07-23: </b>"We came then to Elfeld where I showed my pass and they took no toll; next we came to Rüdesheim. I paid also 2 white-pf. for bringing my things on board the boat. Then we came to Ehrenfels, and there I showed my pass but had to pay 2 fl. in gold. If however within two months I would bring them a free pass the toll-taker would give me back the 2 fl. in gold. "</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>7.9301124,49.98214429999999</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Bacharach</name>
+        <TimeStamp>1520-07-24</TimeStamp>
+        <description>
+          <p><b>1520-07-24: </b>"After that we came to Bacharach, where I had to promise in writing that within two months I would either pay the toll or bring them a free-pass. We came next to Kaub and I showed my pass, but it would carry me no further, and I had to promise in writing as before. I spent there 11 Hellers. "</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>7.769451800000001,50.056877</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Kaub</name>
+        <TimeStamp>1520-07-24</TimeStamp>
+        <description>
+          <p><b>1520-07-24: </b>"After that we came to Bacharach, where I had to promise in writing that within two months I would either pay the toll or bring them a free-pass. We came next to Kaub and I showed my pass, but it would carry me no further, and I had to promise in writing as before. I spent there 11 Hellers. "</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>7.765754,50.0860701</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Sankt Goar</name>
+        <TimeStamp>1520-07-25</TimeStamp>
+        <description>
+          <p><b>1520-07-25: </b>"We then came to Sankt Goar, and here I showed my pass. The toll-taker asked me how they had treated me elsewhere. So I said I would pay him nothing. I paid 2 white-pf. to the messenger. "</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>7.713120200000001,50.1512782</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Boppart</name>
+        <TimeStamp>1520-07-26</TimeStamp>
+        <description>
+          <p><b>1520-07-26: </b>"We came after that to Boppart and I showed my pass at the Trier toll-bar, and was let go by; only I had to certify in a short writing under my seal that I had with me no common merchandise, and then the man willingly let me go. Next we came to Lahnstein and I showed my pass and the toll-taker let me go free, but he asked me to speak for him to my most gracious Lord of Mainz. He gave me also a can of wine, for he knew my wife well and was glad to see me. "</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>7.58853,50.2311996</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Lahnstein</name>
+        <TimeStamp>1520-07-26</TimeStamp>
+        <description>
+          <p><b>1520-07-26: </b>"We came after that to Boppart and I showed my pass at the Trier toll-bar, and was let go by; only I had to certify in a short writing under my seal that I had with me no common merchandise, and then the man willingly let me go. Next we came to Lahnstein and I showed my pass and the toll-taker let me go free, but he asked me to speak for him to my most gracious Lord of Mainz. He gave me also a can of wine, for he knew my wife well and was glad to see me. "</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>7.609363300000001,50.3078274</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Engers</name>
+        <TimeStamp>1520-07-27</TimeStamp>
+        <description>
+          <p><b>1520-07-27: </b>"Then we came to Engers, which belongs to Trier, and I presented my pass and they let me go on toll-free. I said too that I would mention it to my Lord of Bamberg. We came next to Andernach, and I presented my pass and they let me go free. I spent there 7 Hellers and 4 Hellers more."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>7.545019799999999,50.42584069999999</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Andernach</name>
+        <TimeStamp>1520-07-27</TimeStamp>
+        <description>
+          <p><b>1520-07-27: </b>"Then we came to Engers, which belongs to Trier, and I presented my pass and they let me go on toll-free. I said too that I would mention it to my Lord of Bamberg. We came next to Andernach, and I presented my pass and they let me go free. I spent there 7 Hellers and 4 Hellers more."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>7.4086636,50.426057</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Linz am Rhein, Germany</name>
+        <TimeStamp>1520-07-28</TimeStamp>
+        <description>
+          <p><b>1520-07-28: </b>"On St. James' day I travelled early from Andernach to Linz, and we went thence to the toll-station at Bonn, and there again they let me go by free. And so we came to Köln; and I spent in the boat 9 white-pf and 1 more, and 4 pf. for fruit. At Köln I paid 7 white pf. for landing my things and I gave the boatmen 14 Hellers. And I have my cousin Niklas my black fur-lined coat, edged with velvet, and to his wife I gave a florin."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>7.2808,50.5658</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Bonn, Germany</name>
+        <TimeStamp>1520-07-28</TimeStamp>
+        <description>
+          <p><b>1520-07-28: </b>"On St. James' day I travelled early from Andernach to Linz, and we went thence to the toll-station at Bonn, and there again they let me go by free. And so we came to Köln; and I spent in the boat 9 white-pf and 1 more, and 4 pf. for fruit. At Köln I paid 7 white pf. for landing my things and I gave the boatmen 14 Hellers. And I have my cousin Niklas my black fur-lined coat, edged with velvet, and to his wife I gave a florin."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>7.1000,50.7300</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Cologne, Germany</name>
+        <TimeStamp>1520-07-28</TimeStamp>
+        <description>
+          <p><b>1520-07-28: </b>"On St. James' day I travelled early from Andernach to Linz, and we went thence to the toll-station at Bonn, and there again they let me go by free. And so we came to Köln; and I spent in the boat 9 white-pf and 1 more, and 4 pf. for fruit. At Köln I paid 7 white pf. for landing my things and I gave the boatmen 14 Hellers. And I have my cousin Niklas my black fur-lined coat, edged with velvet, and to his wife I gave a florin."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>7.0292,50.9424</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Busdorf, Germany</name>
+        <TimeStamp>1520-07-29</TimeStamp>
+        <description>
+          <p><b>1520-07-29: </b>"After that, on St. Pantaleon's day, we travelled from Köln to a village called Büsdorf where we stayed over night and spent 3 white-pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>6.709058,50.989871</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Rodingen, Germany</name>
+        <TimeStamp>1520-07-30</TimeStamp>
+        <description>
+          <p><b>1520-07-30: </b>"And we went on Sunday early to Rödingen; we had breakfast there and I spend 2 white-pf., and 3 pf., and again 3pf. Then we came to Frei-Aldenhoven where we lay for the night, and there I spent 3 white-pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>6.2831,50.8958</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Aldenhoven, Germany</name>
+        <TimeStamp>1520-07-30</TimeStamp>
+        <description>
+          <p><b>1520-07-30: </b>"And we went on Sunday early to Rödingen; we had breakfast there and I spend 2 white-pf., and 3 pf., and again 3pf. Then we came to Frei-Aldenhoven where we lay for the night, and there I spent 3 white-pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>6.2831,50.8958</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Gangelt, Germany</name>
+        <TimeStamp>1520-07-31</TimeStamp>
+        <description>
+          <p><b>1520-07-31: </b>"We went on thence early in the morning to Freelenberg and passed the little town Gangelt, and breakfasted at a village called Süsterseel, and spent two white-pf. 2 Heller; further 1 white-pf. Again 2 white-pf. Thence we travelled to Sittard - a fine little town - and from there to Stockhem, which belongs to Liège. We had a pleasant inn here, and stayed the night and spent 4 white-pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>5.99801,50.991951</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Susterseel, Germany</name>
+        <TimeStamp>1520-07-31</TimeStamp>
+        <description>
+          <p><b>1520-07-31: </b>"We went on thence early in the morning to Freelenberg and passed the little town Gangelt, and breakfasted at a village called Süsterseel, and spent two white-pf. 2 Heller; further 1 white-pf. Again 2 white-pf. Thence we travelled to Sittard - a fine little town - and from there to Stockhem, which belongs to Liège. We had a pleasant inn here, and stayed the night and spent 4 white-pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>5.936667,50.999722</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Sittard, Germany</name>
+        <TimeStamp>1520-07-31</TimeStamp>
+        <description>
+          <p><b>1520-07-31: </b>"We went on thence early in the morning to Freelenberg and passed the little town Gangelt, and breakfasted at a village called Süsterseel, and spent two white-pf. 2 Heller; further 1 white-pf. Again 2 white-pf. Thence we travelled to Sittard - a fine little town - and from there to Stockhem, which belongs to Liège. We had a pleasant inn here, and stayed the night and spent 4 white-pf."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>5.867,51.017</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Antwerp</name>
+        <TimeStamp>1520-08-03</TimeStamp>
+        <description>
+          <p><b>1520-08-03: </b>"After that we went ealy on Thursday to Op ten Kruys and breakfasted there and spent 3 st. and we came next to Antwerp. At Antwerp I went to Jobst Plankfelt's inn, and the same evening the Fugger's Factor, Bernhard Stecher, invited me and gave us a costly meal. My wife however dined at the inn. I paid the driver 3 gold florins for bringing us three, and 1 st. I paid for carrying the goods."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>4.402882,51.219216</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Burgomaster's House</name>
+        <TimeStamp>1520-08-04</TimeStamp>
+        <description>
+          <p><b>1520-08-04: </b>"On Saturday after the fest of St. Peter in Chains my host took me to see the Burgomaster's house at Antwerp. It is newly built and beyond measure large, and very well ordered, with spacious and exceedingly beautiful chambers, a tower splendidly ornamented, a very large garden - altogether a noble house, the like of which I have nowhere seen in all Germany. The house also is reached from both sides by a very long street, which has been quite newly built according to the Burgomaster's liking and at his charges."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>4.410493,51.220654</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Antwerp painters' guild hall</name>
+        <TimeStamp>1520-08-05</TimeStamp>
+        <description>
+          <p><b>1520-08-05: </b>"I paid 3 st. to the messenger, 2 pf. for bread, 2 pf. for ink. On Sunday, it was St. Oswald's day, the painters invited me to the hall of their guild, with my wife and maid. All their service was of silver, and they had other splendid ornaments and very costly meats. All their wives also were there. And as I was being led to the table to company stood on both sides as if they were leading some great lord. And there were amongst them men of very high position, who all behaved most respectfully towards me with deep courtesy, and promised to do everything in their power agreeable to me that they knew of. And as I was sitting there in such honor the Syndic of Antwerp came, with two servants, and presented me with four cans of wine in the name of the Town Councillors of Antwerp, and they had bidden him say that they wished thereby to show their respect for me and to assure me of their good will. Wherefore I returned them my humble thanks and offered my humble service. After that came Master Peeter, the town-carpenter, and presented me with two cans of wine, with the offer of his willing services. So when we had spent a long and merry time together till late in the night, they accompanied us home with lanterns in great honor. And they begged me to be ever assured and confident of their good will, and promised that in whatever I did they would be all-helpful to me. So I thanked them and laid me down to sleep."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>4.40004,51.22136999999999</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Quentin Massys' house</name>
+        <TimeStamp>1520-08-06</TimeStamp>
+        <description>
+          <p><b>1520-08-06: </b>"I have also been in Master Quentin's house, and to the three great shooting places. I received a costly feast at Lorenz Staiber's, and another time at the Portuguese Factor's whose portrait I drew in charcoal. Of my host, Jobst Plankfelt, I have also made a portrait; he gave me a branch of white coral. Paid 2 st. for butter, 2 st. to the joiner at the Painter's warehouse. My host took me to the workshop in the Painters' warehouse at Antwerp, where they are making the Triumphal way through which King Charles is to make his entry. It is four hundred arches long, and each arch is 40 feet wide. They are to be set up along both sides of the street, handsomely ordered and two stories high. The plays are to be acted on them. It will cost the Painters and Joiners altogether 4000 florins. "Auch wird man das als vol darzu brennen", and the whole work is very splendidly done."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>4.406695,51.216433</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#city</styleUrl>
+        <name>Antwerp</name>
+        <TimeStamp>1520-08-06</TimeStamp>
+        <description>
+          <p><b>1520-08-06: </b>"I have also been in Master Quentin's house, and to the three great shooting places. I received a costly feast at Lorenz Staiber's, and another time at the Portuguese Factor's whose portrait I drew in charcoal. Of my host, Jobst Plankfelt, I have also made a portrait; he gave me a branch of white coral. Paid 2 st. for butter, 2 st. to the joiner at the Painter's warehouse. My host took me to the workshop in the Painters' warehouse at Antwerp, where they are making the Triumphal way through which King Charles is to make his entry. It is four hundred arches long, and each arch is 40 feet wide. They are to be set up along both sides of the street, handsomely ordered and two stories high. The plays are to be acted on them. It will cost the Painters and Joiners altogether 4000 florins. "Auch wird man das als vol darzu brennen", and the whole work is very splendidly done."</p>
+        </description>
+        <MultiGeometry>
+          <Point>
+            <coordinates>4.402882,51.219216</coordinates>
+          </Point>
+        </MultiGeometry>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>The Artworks</name>
+      <Placemark xmlns="">
+        <name>Painting of The Virgin</name>
+        <description>
+          <p><b>Date: </b>unkown</p>
+          <p><b>Medium: </b>painting</p>
+          <p><b>Notes: </b>There has been no trace of the painting since the beginning of the nineteenth century.</p>
+          <p><b>1520-07-13: </b>"Next day, Friday, we came to Forchheim and there I paid 22 pf. for the convoy. Thence I journeyed to Bamberg where I presented the Bishop with a painting of the Virgin, a Life of the Virgin, an Apocalypse, and a florin's worth of engravings. He invited me as his guest, gave me a Toll-pass and three letters of introduction and paid my bill at the Inn, where I had spent about a florin."</p>
+        </description>
+        <TimeStamp>1520-07-13</TimeStamp>
+        <styleUrl>#msn_square</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>10.902764,49.898813,0</coordinates>
+        </Point>
+      </Placemark>
+      <Style xmlns="" id="VirginCut1504">
+        <IconStyle>
+          <scale>1.7</scale>
+          <Icon>
+            <href>images/VirginCut1504.jpg</href>
+          </Icon>
+          <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <LineStyle>
+          <width>2</width>
+        </LineStyle>
+      </Style>
+      <Placemark xmlns="">
+        <styleUrl>VirginCut1504</styleUrl>
+        <name>The Life of the Virgin</name>
+        <description>
+          <p><b>Date: </b>1504-1507</p>
+          <p><b>Medium: </b>woodcut</p>
+          <p><b>Notes: </b>Series of twenty woodcuts.</p>
+          <p><b>1520-07-13: </b>"Next day, Friday, we came to Forchheim and there I paid 22 pf. for the convoy. Thence I journeyed to Bamberg where I presented the Bishop with a painting of the Virgin, a Life of the Virgin, an Apocalypse, and a florin's worth of engravings. He invited me as his guest, gave me a Toll-pass and three letters of introduction and paid my bill at the Inn, where I had spent about a florin."</p>
+          <p>
+            <img src="images/VirginCut1504.jpg"/>
+          </p>
+        </description>
+        <TimeStamp>1520-07-13</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>10.902764,49.898813,0</coordinates>
+        </Point>
+      </Placemark>
+      <Style xmlns="" id="ApocCut1498">
+        <IconStyle>
+          <scale>1.7</scale>
+          <Icon>
+            <href>images/ApocCut1498.jpg</href>
+          </Icon>
+          <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <LineStyle>
+          <width>2</width>
+        </LineStyle>
+      </Style>
+      <Placemark xmlns="">
+        <styleUrl>ApocCut1498</styleUrl>
+        <name>The Apocalypse of St. John</name>
+        <description>
+          <p><b>Date: </b>1498</p>
+          <p><b>Medium: </b>woodcut</p>
+          <p><b>Notes: </b>Series of fifteen woodcuts.</p>
+          <p><b>1520-07-13: </b>"Next day, Friday, we came to Forchheim and there I paid 22 pf. for the convoy. Thence I journeyed to Bamberg where I presented the Bishop with a painting of the Virgin, a Life of the Virgin, an Apocalypse, and a florin's worth of engravings. He invited me as his guest, gave me a Toll-pass and three letters of introduction and paid my bill at the Inn, where I had spent about a florin."</p>
+          <p>
+            <img src="images/ApocCut1498.jpg"/>
+          </p>
+        </description>
+        <TimeStamp>1520-07-13</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>10.902764,49.898813,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <name>Miscellaneous engravings</name>
+        <description>
+          <p><b>Date: </b>n/a</p>
+          <p><b>Medium: </b>engraving</p>
+          <p><b>1520-07-13: </b>"Next day, Friday, we came to Forchheim and there I paid 22 pf. for the convoy. Thence I journeyed to Bamberg where I presented the Bishop with a painting of the Virgin, a Life of the Virgin, an Apocalypse, and a florin's worth of engravings. He invited me as his guest, gave me a Toll-pass and three letters of introduction and paid my bill at the Inn, where I had spent about a florin."</p>
+        </description>
+        <TimeStamp>1520-07-13</TimeStamp>
+        <styleUrl>#msn_square</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>10.902764,49.898813,0</coordinates>
+        </Point>
+      </Placemark>
+      <Style xmlns="" id="JobstPlankfelt">
+        <IconStyle>
+          <scale>1.7</scale>
+          <Icon>
+            <href>images/JobstPlankfelt.jpg</href>
+          </Icon>
+          <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+        </IconStyle>
+        <LineStyle>
+          <width>2</width>
+        </LineStyle>
+      </Style>
+      <Placemark xmlns="">
+        <styleUrl>JobstPlankfelt</styleUrl>
+        <name>Portrait of Jobst Plankfelt</name>
+        <description>
+          <p><b>Date: </b>August, 1520</p>
+          <p><b>Medium: </b>drawing</p>
+          <p><b>1520-08-06: </b>"I have also been in Master Quentin's house, and to the three great shooting places. I received a costly feast at Lorenz Staiber's, and another time at the Portuguese Factor's whose portrait I drew in charcoal. Of my host, Jobst Plankfelt, I have also made a portrait; he gave me a branch of white coral. Paid 2 st. for butter, 2 st. to the joiner at the Painter's warehouse. My host took me to the workshop in the Painters' warehouse at Antwerp, where they are making the Triumphal way through which King Charles is to make his entry. It is four hundred arches long, and each arch is 40 feet wide. They are to be set up along both sides of the street, handsomely ordered and two stories high. The plays are to be acted on them. It will cost the Painters and Joiners altogether 4000 florins. "Auch wird man das als vol darzu brennen", and the whole work is very splendidly done."</p>
+          <p>
+            <img src="images/JobstPlankfelt.jpg"/>
+          </p>
+        </description>
+        <TimeStamp>1520-08-06</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>4.402882,51.219216,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>The People</name>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Agnes Frey</name>
+        <description>
+          <p><b>Born: </b>1475</p>
+          <p><b>Died: </b>1539-12-28</p>
+          <p><b>Notes: </b>Albrecht D�rer's wife, daughter of the coppersmith and lute player Hans Frey. She married D_�rer on 7 July 1494. They did not have children, and Agnes was D_�rer's Albrecht's sole heir, continuing to sell his works after his death.</p>
+          <p><b>1520-07-12: </b>"On Thursday after Kilian's, I, Albrecht Dürer, at my own charges and costs, took myself and my wife away to the Netherlands. And the same day, after passing through Erlangen, we put up for the night at Baiersdorf and spent there 3 pounds less 6 pfennigs."</p>
+        </description>
+        <TimeStamp>1520-07-12</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>11.074016,49.457162,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Georg Schenk von Limburg</name>
+        <description>
+          <p><b>Born: </b>1505</p>
+          <p><b>Died: </b>1522</p>
+          <p><b>Notes: </b>Bishop of Bamberg, humanist</p>
+          <p><b>1520-07-13: </b>"Next day, Friday, we came to Forchheim and there I paid 22 pf. for the convoy. Thence I journeyed to Bamberg where I presented the Bishop with a painting of the Virgin, a Life of the Virgin, an Apocalypse, and a florin's worth of engravings. He invited me as his guest, gave me a Toll-pass and three letters of introduction and paid my bill at the Inn, where I had spent about a florin."</p>
+        </description>
+        <TimeStamp>1520-07-13</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>10.902764,49.898813,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Lukas Benedict</name>
+        <description>
+          <p><b>Notes: </b>An unknown Bamberg artist.</p>
+          <p><b>1520-07-14: </b>"I paid 6 florins in gold to the boatman who took me from Bamberg to Frankfurt. Master Lukas Benedict and Hans the painter sent me wine. 4 pf. for bread and 13 pf. as leaving gifts. Then I travelled from Bamberg to Eltman and I showed my pass and they let me go toll-free. Thence we passed by Zeil. I spent in the meantime 21 pf. Next I came to Hassfurt and presented my pass and they let me go toll-free. I paid 1 fl. into the Bishop of Bamberg's Chancery. Next I came to Theres to the monastery, and I showed my pass and they also let me go on. Then we journeyed to Unter-Euerheim where I stayed the night and spent 1 pf."</p>
+        </description>
+        <TimeStamp>1520-07-14</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>10.902764,49.898813,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Hans Wolf</name>
+        <description>
+          <p><b>Notes: </b>Bamberg court painter.</p>
+          <p><b>1520-07-14: </b>"I paid 6 florins in gold to the boatman who took me from Bamberg to Frankfurt. Master Lukas Benedict and Hans the painter sent me wine. 4 pf. for bread and 13 pf. as leaving gifts. Then I travelled from Bamberg to Eltman and I showed my pass and they let me go toll-free. Thence we passed by Zeil. I spent in the meantime 21 pf. Next I came to Hassfurt and presented my pass and they let me go toll-free. I paid 1 fl. into the Bishop of Bamberg's Chancery. Next I came to Theres to the monastery, and I showed my pass and they also let me go on. Then we journeyed to Unter-Euerheim where I stayed the night and spent 1 pf."</p>
+        </description>
+        <TimeStamp>1520-07-14</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>10.902764,49.898813,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Georg Schenk von Limburg</name>
+        <description>
+          <p><b>Born: </b>1505</p>
+          <p><b>Died: </b>1522</p>
+          <p><b>Notes: </b>Bishop of Bamberg, humanist</p>
+          <p><b>1520-07-14: </b>"I paid 6 florins in gold to the boatman who took me from Bamberg to Frankfurt. Master Lukas Benedict and Hans the painter sent me wine. 4 pf. for bread and 13 pf. as leaving gifts. Then I travelled from Bamberg to Eltman and I showed my pass and they let me go toll-free. Thence we passed by Zeil. I spent in the meantime 21 pf. Next I came to Hassfurt and presented my pass and they let me go toll-free. I paid 1 fl. into the Bishop of Bamberg's Chancery. Next I came to Theres to the monastery, and I showed my pass and they also let me go on. Then we journeyed to Unter-Euerheim where I stayed the night and spent 1 pf."</p>
+        </description>
+        <TimeStamp>1520-07-14</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>10.516975,50.034381,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name/>
+        <description>
+          <p><b>Notes: </b>Unknwon Schweinfurt doctor.</p>
+          <p><b>1520-07-15: </b>"From thence we travelled to Mainberg and I presented my pass and they let me go toll-free. We came next to Schweinfurt, where Doctor Rebart invited me, and he gave us wine in the boat. They let me also pass toll-free. A roast fowl 10 pf.; 18 pf. in the kitchen and for the child. Then we travelled to Volkach and I showed my pass and journeyed on, and we came to Schwarzach and there we stopped the night and I spend 22 pf."</p>
+        </description>
+        <TimeStamp>1520-07-15</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>10.219423,50.049205,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Leonard Goldschmidt</name>
+        <description>
+          <p><b>Notes: </b>Unknown individual.</p>
+          <p><b>1520-07-22: </b>"So I started away from Mainz, where the Main flows into the Rhine, and it was on the Monday after Magdalen's. I paid 10 Hellers for meat in the boat, and for eggs and pears 9 Hellers. Here too Leonard Goldschmidt gave me wine and birds in the boat to cook on the way to Köln. Master Jobst's brother likewise gave me a bottle of wine; and the Painters gave me two bottles of wine in the boat."</p>
+        </description>
+        <TimeStamp>1520-07-22</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>8.247253000000001,49.992862,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Joost de Necker?</name>
+        <description>
+          <p><b>Notes: </b>Possibly De Necker, an engraver who worked for D_�rer, and would be his host in Brussles.</p>
+          <p><b>1520-07-22: </b>"So I started away from Mainz, where the Main flows into the Rhine, and it was on the Monday after Magdalen's. I paid 10 Hellers for meat in the boat, and for eggs and pears 9 Hellers. Here too Leonard Goldschmidt gave me wine and birds in the boat to cook on the way to Köln. Master Jobst's brother likewise gave me a bottle of wine; and the Painters gave me two bottles of wine in the boat."</p>
+        </description>
+        <TimeStamp>1520-07-22</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>8.247253000000001,49.992862,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Georg Schenk von Limburg</name>
+        <description>
+          <p><b>Born: </b>1505</p>
+          <p><b>Died: </b>1522</p>
+          <p><b>Notes: </b>Bishop of Bamberg, humanist</p>
+          <p><b>1520-07-27: </b>"Then we came to Engers, which belongs to Trier, and I presented my pass and they let me go on toll-free. I said too that I would mention it to my Lord of Bamberg. We came next to Andernach, and I presented my pass and they let me go free. I spent there 7 Hellers and 4 Hellers more."</p>
+        </description>
+        <TimeStamp>1520-07-27</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>7.545019799999999,50.42584069999999,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Niklas D�rer</name>
+        <description>
+          <p><b>Notes: </b>Goldsmith, called Unger, son of D�rer's uncle Ladislas</p>
+          <p><b>1520-07-28: </b>"On St. James' day I travelled early from Andernach to Linz, and we went thence to the toll-station at Bonn, and there again they let me go by free. And so we came to Köln; and I spent in the boat 9 white-pf and 1 more, and 4 pf. for fruit. At Köln I paid 7 white pf. for landing my things and I gave the boatmen 14 Hellers. And I have my cousin Niklas my black fur-lined coat, edged with velvet, and to his wife I gave a florin."</p>
+        </description>
+        <TimeStamp>1520-07-28</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>7.0292,50.9424,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name/>
+        <description>
+          <p><b>1520-08-03: </b>"After that we went ealy on Thursday to Op ten Kruys and breakfasted there and spent 3 st. and we came next to Antwerp. At Antwerp I went to Jobst Plankfelt's inn, and the same evening the Fugger's Factor, Bernhard Stecher, invited me and gave us a costly meal. My wife however dined at the inn. I paid the driver 3 gold florins for bringing us three, and 1 st. I paid for carrying the goods."</p>
+        </description>
+        <TimeStamp>1520-08-03</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>4.402882,51.219216,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name/>
+        <description>
+          <p><b>1520-08-03: </b>"After that we went ealy on Thursday to Op ten Kruys and breakfasted there and spent 3 st. and we came next to Antwerp. At Antwerp I went to Jobst Plankfelt's inn, and the same evening the Fugger's Factor, Bernhard Stecher, invited me and gave us a costly meal. My wife however dined at the inn. I paid the driver 3 gold florins for bringing us three, and 1 st. I paid for carrying the goods."</p>
+        </description>
+        <TimeStamp>1520-08-03</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>4.402882,51.219216,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Agnes Frey</name>
+        <description>
+          <p><b>Born: </b>1475</p>
+          <p><b>Died: </b>1539-12-28</p>
+          <p><b>Notes: </b>Albrecht D�rer's wife, daughter of the coppersmith and lute player Hans Frey. She married D_�rer on 7 July 1494. They did not have children, and Agnes was D_�rer's Albrecht's sole heir, continuing to sell his works after his death.</p>
+          <p><b>1520-08-03: </b>"After that we went ealy on Thursday to Op ten Kruys and breakfasted there and spent 3 st. and we came next to Antwerp. At Antwerp I went to Jobst Plankfelt's inn, and the same evening the Fugger's Factor, Bernhard Stecher, invited me and gave us a costly meal. My wife however dined at the inn. I paid the driver 3 gold florins for bringing us three, and 1 st. I paid for carrying the goods."</p>
+        </description>
+        <TimeStamp>1520-08-03</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>4.402882,51.219216,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Hans Staber</name>
+        <description>
+          <p><b>Notes: </b>Coachman for the D�rers.</p>
+          <p><b>1520-08-03: </b>"After that we went ealy on Thursday to Op ten Kruys and breakfasted there and spent 3 st. and we came next to Antwerp. At Antwerp I went to Jobst Plankfelt's inn, and the same evening the Fugger's Factor, Bernhard Stecher, invited me and gave us a costly meal. My wife however dined at the inn. I paid the driver 3 gold florins for bringing us three, and 1 st. I paid for carrying the goods."</p>
+        </description>
+        <TimeStamp>1520-08-03</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>4.402882,51.219216,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Burgomaster Van Lier</name>
+        <description>
+          <p><b>Notes: </b>Burgomaster of Antwerp during the 1520 entry of Charles V.</p>
+          <p><b>1520-08-04: </b>"On Saturday after the fest of St. Peter in Chains my host took me to see the Burgomaster's house at Antwerp. It is newly built and beyond measure large, and very well ordered, with spacious and exceedingly beautiful chambers, a tower splendidly ornamented, a very large garden - altogether a noble house, the like of which I have nowhere seen in all Germany. The house also is reached from both sides by a very long street, which has been quite newly built according to the Burgomaster's liking and at his charges."</p>
+        </description>
+        <TimeStamp>1520-08-04</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>4.410493,51.220654,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Agnes Frey</name>
+        <description>
+          <p><b>Born: </b>1475</p>
+          <p><b>Died: </b>1539-12-28</p>
+          <p><b>Notes: </b>Albrecht D�rer's wife, daughter of the coppersmith and lute player Hans Frey. She married D_�rer on 7 July 1494. They did not have children, and Agnes was D_�rer's Albrecht's sole heir, continuing to sell his works after his death.</p>
+          <p><b>1520-08-05: </b>"I paid 3 st. to the messenger, 2 pf. for bread, 2 pf. for ink. On Sunday, it was St. Oswald's day, the painters invited me to the hall of their guild, with my wife and maid. All their service was of silver, and they had other splendid ornaments and very costly meats. All their wives also were there. And as I was being led to the table to company stood on both sides as if they were leading some great lord. And there were amongst them men of very high position, who all behaved most respectfully towards me with deep courtesy, and promised to do everything in their power agreeable to me that they knew of. And as I was sitting there in such honor the Syndic of Antwerp came, with two servants, and presented me with four cans of wine in the name of the Town Councillors of Antwerp, and they had bidden him say that they wished thereby to show their respect for me and to assure me of their good will. Wherefore I returned them my humble thanks and offered my humble service. After that came Master Peeter, the town-carpenter, and presented me with two cans of wine, with the offer of his willing services. So when we had spent a long and merry time together till late in the night, they accompanied us home with lanterns in great honor. And they begged me to be ever assured and confident of their good will, and promised that in whatever I did they would be all-helpful to me. So I thanked them and laid me down to sleep."</p>
+        </description>
+        <TimeStamp>1520-08-05</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>4.40004,51.22136999999999,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Adrian Horebouts</name>
+        <description>
+          <p><b>Notes: </b>Syndic of Antwerp in 1520</p>
+          <p><b>1520-08-05: </b>"I paid 3 st. to the messenger, 2 pf. for bread, 2 pf. for ink. On Sunday, it was St. Oswald's day, the painters invited me to the hall of their guild, with my wife and maid. All their service was of silver, and they had other splendid ornaments and very costly meats. All their wives also were there. And as I was being led to the table to company stood on both sides as if they were leading some great lord. And there were amongst them men of very high position, who all behaved most respectfully towards me with deep courtesy, and promised to do everything in their power agreeable to me that they knew of. And as I was sitting there in such honor the Syndic of Antwerp came, with two servants, and presented me with four cans of wine in the name of the Town Councillors of Antwerp, and they had bidden him say that they wished thereby to show their respect for me and to assure me of their good will. Wherefore I returned them my humble thanks and offered my humble service. After that came Master Peeter, the town-carpenter, and presented me with two cans of wine, with the offer of his willing services. So when we had spent a long and merry time together till late in the night, they accompanied us home with lanterns in great honor. And they begged me to be ever assured and confident of their good will, and promised that in whatever I did they would be all-helpful to me. So I thanked them and laid me down to sleep."</p>
+        </description>
+        <TimeStamp>1520-08-05</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>4.40004,51.22136999999999,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark xmlns="">
+        <styleUrl>#person</styleUrl>
+        <name>Peeter</name>
+        <description>
+          <p><b>Notes: </b>Antwerp carpenter</p>
+          <p><b>1520-08-05: </b>"I paid 3 st. to the messenger, 2 pf. for bread, 2 pf. for ink. On Sunday, it was St. Oswald's day, the painters invited me to the hall of their guild, with my wife and maid. All their service was of silver, and they had other splendid ornaments and very costly meats. All their wives also were there. And as I was being led to the table to company stood on both sides as if they were leading some great lord. And there were amongst them men of very high position, who all behaved most respectfully towards me with deep courtesy, and promised to do everything in their power agreeable to me that they knew of. And as I was sitting there in such honor the Syndic of Antwerp came, with two servants, and presented me with four cans of wine in the name of the Town Councillors of Antwerp, and they had bidden him say that they wished thereby to show their respect for me and to assure me of their good will. Wherefore I returned them my humble thanks and offered my humble service. After that came Master Peeter, the town-carpenter, and presented me with two cans of wine, with the offer of his willing services. So when we had spent a long and merry time together till late in the night, they accompanied us home with lanterns in great honor. And they begged me to be ever assured and confident of their good will, and promised that in whatever I did they would be all-helpful to me. So I thanked them and laid me down to sleep."</p>
+        </description>
+        <TimeStamp>1520-08-05</TimeStamp>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>4.40004,51.22136999999999,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
